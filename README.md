@@ -38,7 +38,7 @@ For discrete injected bugs and real bugs the  total number of points a bug is wo
 
 ## Overview
 
-* Create a private fork of the [public repository](https://github.com/Certora/2023-01-blockswap-fv) and give access to judges.
+* Create a private fork of the [public repository]() and give access to judges.
 * Implement properties in the `certora-contest` branch.
 * Set up all your scripts in the `certora/scripts` directory to check the specification against the code.
 * Submit your work by creating a pull request from the `certora-contest` branch to the `certora` branch.
