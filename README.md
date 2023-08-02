@@ -9,7 +9,7 @@ Please note that this is a formal verification contest and therefore many aspect
   - Injected Bug awards: $xx,x00 USDC
   - Participation: $x,000 USDC
 - Join [C4 Discord](https://discord.gg/code4rena) to register
-- [Register](https://www.certora.com/workshops/code4rena-gmx-1/) through Certora to gain access to the prover
+- [Register](https://discord.com/channels/810916927919620096/1129104333531775006/1136342195843112960) through Certora to gain access to the prover
   - Resources to get familiar with the Certora Prover will be emailed to registrants along with their Certora key. 
 - Starts August 07, 2023 20:00 UTC
 - Ends August 21, 2023 20:00 UTC
