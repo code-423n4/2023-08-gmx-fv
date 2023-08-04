@@ -1,9 +1,8 @@
 # GMX Formal Verification Contest Details
 - Total Prize Pool: $40,000 USDC
-  - High/Medium awards: $20,020 USDC
-  - Injected bug awards: $12,740 USDC
-  - Participation awards: $3,640 USDC
-  - Judge awards: $3,600 USDC
+  - High/Medium awards: $22,000 USDC
+  - Injected bug awards: $14,000 USDC
+  - Participation awards: $4,000 USDC
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - [Register](https://docs.google.com/forms/d/e/1FAIpQLSf7rGov3q0A_UNmKckv-tzR5snLGibZWF9y9dhgXUBZRZ0EVw/viewform) through Certora to gain access to the prover
   - Resources to get familiar with the Certora Prover will be emailed to registrants along with their Certora key. 
