@@ -9,27 +9,13 @@
 - Starts August 07, 2023 20:00 UTC
 - Ends August 21, 2023 20:00 UTC
 
-# Incentive Model
-## TLDR
-* The total reward is split into three categories: participation, bugs, and mutations
-* Participation rewards are distributed evenly amongst those catching all public mutations
-* Discrete injected bugs and real bugs are rewarded using the [Code4rena incentive model](https://docs.code4rena.com/awarding/incentive-model-and-awards)
-* Real bug submissions require more details such as impact, exploit scenario, and mitigation
-
 ## Incentives
 
-The value of each bug will be distributed evenly. A bug's value is equal to VALUE * 0.9^FINDERS. The value of high severity bugs is 4 and medium severity is 1. Low, Informational, and Gas findings may be submitted but will not be considered for the reward.
+The total reward will be split into three categories: participation, bugs, and mutations. Participation rewards are distributed evenly amongst those catching all public mutations. Private mutations will be used to evaluate coverage. Findings are rewarded using the [Code4rena incentive model](https://docs.code4rena.com/awarding/incentive-model-and-awards). Finding submissions require details such as impact, exploit scenario, and mitigation. In the case that no high or medium findings, the coverage pool will be increased to 90%.
 
-Severity will be determined by Certora using [Code4rena criteria](https://code4rena.com/judging-criteria/). To receive rewards for real bugs, submissions must describe the bug and include a rule that detects the bug. 
-
-In the case that no real bugs are found, the coverage pool will be increased to 90%.
-
----
-# Working Instructions for Formal Verification Audits
+To receive rewards for your findings, submissions must include a rule that detects the bug. The value of each bug will be distributed evenly. A bug's value is equal to VALUE * 0.9^FINDERS. High severity bugs have a value of 4 and medium severity bugs have a value of 1. Low, Informational, and Gas findings may be submitted but will not be considered for the reward. Severity will be determined by Certora using [Code4rena criteria](https://code4rena.com/judging-criteria/).  
 
 ## Setup
-
-To get setup:
 
 * [Import](https://github.com/new/import) the [public repository]() as a private repo and give access to teryanarmen. 
 * Add `CERTORAKEY` as a repository secret for CI. Work in the `certora-contest` branch. 
