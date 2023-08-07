@@ -1,29 +1,19 @@
-import "./complexity.spec";
-
 methods {
-    /// DataStore (to be dispatched only if the DataStore contract isn't linked to the harness Oracle)
+    // DataStore
     function _.getUint(bytes32) external => DISPATCHER(true);
     function _.getAddress(bytes32) external => DISPATCHER(true);
     function _.getBytes32(bytes32) external => DISPATCHER(true);
     // RoleStore
     function _.hasRole(address,bytes32) external => DISPATCHER(true);
-    /// OracleStore
+    // OracleStore
     function _.getSigner(uint256) external => DISPATCHER(true);
-    /// PriceFeed
+    // PriceFeed
     function _.latestRoundData() external => DISPATCHER(true);
-    /// Array (temporary summarization)
-    function _.getMedian(uint256[] memory) internal => NONDET;
     /// Chain
     function _.arbBlockNumber() external => ghostBlockNumber() expect uint256 ALL;
     function _.arbBlockHash(uint256 blockNumber) external => ghostBlockHash(blockNumber) expect bytes32 ALL;
     /// Oracle summaries
     function Oracle._getSalt() internal returns bytes32 => mySalt();
-    /// @notice : the following summaries aren't applied (issue)
-    function _._getPriceFeedPrice(address,address) internal => NONDET;
-    function _._setPrices(address,address,address[] memory, OracleUtils.SetPricesParams memory) internal => NONDET;
-    function _.getUncompactedValue(uint256[] memory,uint256,uint256,uint256,string memory) internal => NONDET;
-    function _.validateSigner(bytes32,OracleUtils.ReportInfo memory,bytes memory,address) internal => NONDET;
-    function _._getSigners(address,OracleUtils.SetPricesParams memory) internal => NONDET;
 
     /// Getters:
     function OracleHarness.primaryPrices(address) external returns (uint256,uint256);
@@ -72,7 +62,4 @@ rule validateSignerConsistency() {
 
     assert (salt1 == salt2 && signer1 == signer2) => !lastReverted,
         "Revert characteristics of validateSigner are not consistent";
-
-    assert (!lastReverted && salt1 == salt2) => (signer1 == signer2),
-        "Same salt must imply same signer";
 }

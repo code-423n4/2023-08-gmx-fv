@@ -10,6 +10,13 @@ methods {
     function _.transfer(address,uint256)             external  => DISPATCHER(true);
     function _.transferFrom(address,address,uint256) external  => DISPATCHER(true);
 
+    // DataStore
+    function _.getUint(bytes32) external => DISPATCHER(true);
+    function _.getAddress(bytes32) external => DISPATCHER(true);
+    function _.getBytes32(bytes32) external => DISPATCHER(true);
+    // RoleStore
+    function _.hasRole(address,bytes32) external => DISPATCHER(true);
+
     // WNT
     function _.deposit()                             external  => DISPATCHER(true);
     function _.withdraw(uint256)                     external  => DISPATCHER(true);
