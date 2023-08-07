@@ -16,8 +16,8 @@ The total reward will be split into three categories: bugs, coverage, and partic
 ## Setup
 
 * [Import](https://github.com/new/import) this repo as a private repo and give access to teryanarmen. 
-* Add `CERTORAKEY` as a repository secret for CI. Work in the `certora-contest` branch. 
-* Submit your work by creating a pull request from `certora-contest` to `certora` in your repo.
+* Add `CERTORAKEY` as a repository secret for CI. Work in the `certora` branch. 
+* Submit your work by creating a pull request from `certora` to `master` in your repo.
 * Note the Certora Prover [docs](docs.certora.com).
 
 
@@ -25,8 +25,8 @@ The total reward will be split into three categories: bugs, coverage, and partic
 
 The `certora` directory that consists of 5 sub-directories - `harnesses`, `confs`, `tests`, and `specs`. These should contain the entire preliminary setup to allow you to start writing rules. Each sub-directory contains a different component of the verification project and may contain additional sub-directories to maintain organization. Try to keep a similar structure when adding new files.
 
-In the `certora/spec` directory, you will find a spec file named `<Contract>.spec` that inherits from the relevant `setup.spec` file. In this spec, gather all the rules and invariants that you were able to verify. Before submitting this spec, make sure to check the following things:
-* Ensure all properties are finished, reachable, and not timing out. Any properties not catching real bugs must also be passing.
+In the `certora/specs` directory, you will find a spec files named `<Contract>.spec` for each contract. In each spec, gather all the rules and invariants that you were able to verify for each contract. Before submitting this spec, make sure to check the following things:
+* All properties are finished, reachable, and not timing out. Any properties not catching real bugs must also be passing.
 * Document each property.
 * It is recommended to inject bugs to test your properties.
 
@@ -39,7 +39,7 @@ For each real bug open an issue on your private repository with:
 
 For properties that find real bugs, create `<Contract>Issues.spec` with  only properties that catch bugs. Document each property with a short description of the attack vector found in the violation counter-example with concrete values if possible. Also, add a reference to the GitHub issue that further explains the bug.
 
-At the end of the formal verification contest, private mutations will be pushed to the public repo. Pull any changes from the public repo and open a pull request within your repository from the `certora-contest` branch to the `certora` branch. Upon opening the PR, the CI will be triggered, and the result will be evaluated by the judges.
+At the end of the formal verification contest, private mutations will be pushed to the public repo. Pull any changes from the public repo and open a pull request within your repository from the `certora` branch to the `master` branch. Upon opening the PR, the CI will be triggered, and the result will be evaluated by the judges.
 
 
 ## Testing
