@@ -2,12 +2,12 @@
 - Total Prize Pool: $40,000 USDC
   - High/Medium awards: $22,000 USDC
   - Coverage awards: $14,000 USDC
-  - Participation: $4,000 USDC
+  - Participation awards: $4,000 USDC
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - [Register](https://docs.google.com/forms/d/e/1FAIpQLSf7rGov3q0A_UNmKckv-tzR5snLGibZWF9y9dhgXUBZRZ0EVw/viewform) through Certora to gain access to the prover
   - Resources to get familiar with the Certora Prover will be emailed to registrants along with their Certora key. 
 - Starts August 07, 2023 20:00 UTC
-- Ends August 21, 2023 20:00 UTC
+- Ends August 28, 2023 20:00 UTC
 
 ## Incentives
 
@@ -38,7 +38,7 @@ The `certora` directory that consists of 5 sub-directories - `harnesses`, `confs
 Gather all the rules and invariants that you were able to verify in `<Contract>.spec` under `certora/specs`. Before submitting this spec, make sure to check the following things:
 * Ensure all properties are finished, reachable, and not timing out. Any properties not catching real bugs must also be passing.
 * Document each property.
-* It is recommended to inject a bugs to test your properties.
+* It is recommended to inject bugs to test your properties.
 
 For each real bug open an issue on your private repository with:
 * Short description of the problem
