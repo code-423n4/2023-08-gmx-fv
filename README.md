@@ -11,13 +11,11 @@
 
 ## Incentives
 
-The total reward will be split into three categories: bugs, coverage, and participation. Participation rewards are distributed evenly amongst those catching all public mutations. Private mutations will be used to evaluate coverage. Bug findings are rewarded using the [Code4rena incentive model](https://docs.code4rena.com/awarding/incentive-model-and-awards). Bug submissions require details such as impact, exploit scenario and mitigation. In the case that no high or medium findings, the coverage pool will be increased to 90%.
-
-To receive rewards for your findings, submissions must include a rule that detects the bug. The value of each bug will be distributed evenly. A bug's value is equal to VALUE * 0.9^FINDERS. High severity bugs have a value of 4 and medium severity bugs have a value of 1. Low, Informational, and Gas findings may be submitted but will not be considered for the reward. The severity will be determined by Certora using [Code4rena criteria](https://code4rena.com/judging-criteria/).  
+The total reward will be split into three categories: bugs, coverage, and participation. Participation rewards are distributed evenly amongst those catching all public mutations. Private mutations will be used to evaluate coverage. Bug findings are rewarded using the [Code4rena incentive model](https://docs.code4rena.com/awarding/incentive-model-and-awards). Low, Informational, and Gas findings may be submitted but will not be considered for the reward. The severity will be determined by Certora using [Code4rena criteria](https://code4rena.com/judging-criteria/). Bug submissions require details such as impact, exploit scenario, mitigation, and CVL property violated to be eligible for rewards. In the case that no high or medium findings, the coverage pool will be increased to 90%.
 
 ## Setup
 
-* [Import](https://github.com/new/import) the [public repository]() as a private repo and give access to teryanarmen. 
+* [Import](https://github.com/new/import) this repo as a private repo and give access to teryanarmen. 
 * Add `CERTORAKEY` as a repository secret for CI. Work in the `certora-contest` branch. 
 * Submit your work by creating a pull request from `certora-contest` to `certora` in your repo.
 * Note the Certora Prover [docs](docs.certora.com).
@@ -25,7 +23,7 @@ To receive rewards for your findings, submissions must include a rule that detec
 
 ## Participation 
 
-The `certora` directory that consists of 5 sub-directories - `harnesses`, `confs`, `tests` and `specs`. These should contain the entire preliminary setup to allow you to start writing rules. Each sub-directory contains a different component of the verification project and may contain additional sub-directories to maintain organization. Try to keep a similar structure when adding new files.
+The `certora` directory that consists of 5 sub-directories - `harnesses`, `confs`, `tests`, and `specs`. These should contain the entire preliminary setup to allow you to start writing rules. Each sub-directory contains a different component of the verification project and may contain additional sub-directories to maintain organization. Try to keep a similar structure when adding new files.
 
 In the `certora/spec` directory, you will find a spec file named `<Contract>.spec` that inherits from the relevant `setup.spec` file. In this spec, gather all the rules and invariants that you were able to verify. Before submitting this spec, make sure to check the following things:
 * Ensure all properties are finished, reachable, and not timing out. Any properties not catching real bugs must also be passing.
