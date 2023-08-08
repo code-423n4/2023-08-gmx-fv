@@ -64,7 +64,7 @@ Installation instructions can be found [here](https://docs.certora.com/en/latest
 * Node JS version >= 14.16.
 * Yarn version >= 1.22.
 * Java Development Kit version >= 11.
-* Solidity version 0.8.13 (exactly this version).
+* Solidity version 0.8.19.
 * One can install Certora with the Python package manager Pip3,
   ```
   pip3 install certora-cli
