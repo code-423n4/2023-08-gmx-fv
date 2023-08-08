@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity ^0.8.0;
 
-import {Oracle, DataStore, EventEmitter, RoleStore, OracleStore} from "../../contracts/Oracle/Oracle.sol";
-import {OracleUtils} from "../../contracts/Oracle/OracleUtils.sol";
+import {Oracle, DataStore, EventEmitter, RoleStore, OracleStore} from "../../contracts/oracle/Oracle.sol";
+import {OracleUtils} from "../../contracts/oracle/OracleUtils.sol";
 import {Bits} from "../../contracts/utils/Bits.sol";
 
 contract OracleHarness is Oracle {
