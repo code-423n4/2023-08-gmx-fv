@@ -5,7 +5,8 @@
   - Participation awards: $4,000 USDC
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - [Register](https://docs.google.com/forms/d/e/1FAIpQLSf7rGov3q0A_UNmKckv-tzR5snLGibZWF9y9dhgXUBZRZ0EVw/viewform) through Certora to gain access to the prover
-  - Resources to get familiar with the Certora Prover will be emailed to registrants along with their Certora key. 
+  - Resources to get familiar with the Certora Prover will be emailed to registrants along with their Certora key.
+- Learn about [GMX](https://github.com/gmx-io/gmx-synthetics)
 - Starts August 07, 2023 20:00 UTC
 - Ends August 28, 2023 20:00 UTC
 
