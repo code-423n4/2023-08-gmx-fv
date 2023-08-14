@@ -172,7 +172,7 @@ rule non_controller_remove_signer {
     require (some_start <= some_end && some_end < signer_count_before);
     require (signers_arr_idx < assert_uint256(some_end - some_start));
 
-    oracleStore.addSigner(e, new_signer_address);
+    oracleStore.removeSigner(e, remove_signer_address);
     
     signer_count_after = oracleStore.getSignerCount(e);
     signer_at_index_after = oracleStore.getSigner(e, some_index);
