@@ -12,7 +12,7 @@
 
 ## Incentives
 
-The total reward will be split into three categories: participation, bugs, and mutations. Participation rewards are distributed evenly amongst those catching all public mutations. Private mutations will be used to evaluate coverage. Bugs are rewarded using the [Code4rena incentive model](https://docs.code4rena.com/awarding/incentive-model-and-awards). Low, Informational, and Gas findings may be submitted but will not be considered for the reward. Severity will be determined by Certora using [Code4rena criteria](https://code4rena.com/judging-criteria/). Bug submissions require details such as impact, exploit scenario, mitigation and CVL property violated to be eligible for rewards. In the case that no high or medium findings, the coverage pool will be increased to 90%.
+The total reward will be split into three categories: participation, bugs, and mutations. Participation rewards are distributed evenly amongst those catching all public mutations found in `certora/mutations/certora/`. Private mutations will be used to evaluate coverage. Bugs are rewarded using the [Code4rena incentive model](https://docs.code4rena.com/awarding/incentive-model-and-awards). Low, Informational, and Gas findings may be submitted but will not be considered for the reward. Severity will be determined by Certora using [Code4rena criteria](https://code4rena.com/judging-criteria/). Bug submissions require details such as impact, exploit scenario, mitigation and CVL property violated to be eligible for rewards. In the case that no high or medium findings, the coverage pool will be increased to 90%.
 
 ## Setup
 
