@@ -5,13 +5,14 @@
   - Participation awards: $4,000 USDC
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - [Register](https://docs.google.com/forms/d/e/1FAIpQLSf7rGov3q0A_UNmKckv-tzR5snLGibZWF9y9dhgXUBZRZ0EVw/viewform) through Certora to gain access to the prover
-  - Resources to get familiar with the Certora Prover will be emailed to registrants along with their Certora key. 
+  - Resources to get familiar with the Certora Prover will be emailed to registrants along with their Certora key.
+- Learn about [GMX](https://github.com/gmx-io/gmx-synthetics)
 - Starts August 07, 2023 20:00 UTC
 - Ends August 28, 2023 20:00 UTC
 
 ## Incentives
 
-The total reward will be split into three categories: participation, bugs, and mutations. Participation rewards are distributed evenly amongst those catching all public mutations. Private mutations will be used to evaluate coverage. Bugs are rewarded using the [Code4rena incentive model](https://docs.code4rena.com/awarding/incentive-model-and-awards). Low, Informational, and Gas findings may be submitted but will not be considered for the reward. Severity will be determined by Certora using [Code4rena criteria](https://code4rena.com/judging-criteria/). Bug submissions require details such as impact, exploit scenario, mitigation and CVL property violated to be eligible for rewards. In the case that no high or medium findings, the coverage pool will be increased to 90%.
+The total reward will be split into three categories: participation, bugs, and mutations. Participation rewards are distributed evenly amongst those catching all public mutations found in `certora/mutations/certora/`. Private mutations will be used to evaluate coverage. Bugs are rewarded using the [Code4rena incentive model](https://docs.code4rena.com/awarding/incentive-model-and-awards). Low, Informational, and Gas findings may be submitted but will not be considered for the reward. Severity will be determined by Certora using [Code4rena criteria](https://code4rena.com/judging-criteria/). Bug submissions require details such as impact, exploit scenario, mitigation and CVL property violated to be eligible for rewards. In the case that no high or medium findings, the coverage pool will be increased to 90%.
 
 ## Setup
 
@@ -64,7 +65,7 @@ Installation instructions can be found [here](https://docs.certora.com/en/latest
 * Node JS version >= 14.16.
 * Yarn version >= 1.22.
 * Java Development Kit version >= 11.
-* Solidity version 0.8.13 (exactly this version).
+* Solidity version 0.8.19.
 * One can install Certora with the Python package manager Pip3,
   ```
   pip3 install certora-cli
