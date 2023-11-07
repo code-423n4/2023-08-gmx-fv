@@ -80,7 +80,7 @@ contract DataStore is RoleModule {
     // @return the new uint value
     function applyDeltaToUint(bytes32 key, int256 value, string memory errorMessage) external onlyController returns (uint256) {
         uint256 currValue = uintValues[key];
-        /// IfStatementMutation(`value < 0 && (-value).toUint256() >= currValue` |==> `false`) of: `if (value < 0 && (-value).toUint256() >= currValue) {`
+        /// IfStatementMutation(`value < 0 && (-value).toUint256() > currValue` |==> `false`) of: `if (value < 0 && (-value).toUint256() > currValue) {`
         if (false) {
             revert(errorMessage);
         }
