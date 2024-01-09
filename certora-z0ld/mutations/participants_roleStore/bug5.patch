@@ -1,0 +1,13 @@
+diff --git a/contracts/role/RoleStore.sol b/contracts/role/RoleStore.sol
+index 5868ccc..fea2bcf 100644
+--- a/contracts/role/RoleStore.sol
++++ b/contracts/role/RoleStore.sol
+@@ -120,7 +120,7 @@ contract RoleStore {
+ 
+         if (roleMembers[roleKey].length() == 0) {
+             if (roleKey == Role.ROLE_ADMIN) {
+-                revert Errors.ThereMustBeAtLeastOneRoleAdmin();
++                //revert Errors.ThereMustBeAtLeastOneRoleAdmin();
+             }
+             if (roleKey == Role.TIMELOCK_MULTISIG) {
+                 revert Errors.ThereMustBeAtLeastOneTimelockMultiSig();

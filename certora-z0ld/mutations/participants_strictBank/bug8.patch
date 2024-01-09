@@ -1,0 +1,13 @@
+diff --git a/contracts/bank/Bank.sol b/contracts/bank/Bank.sol
+index 35ad0f1..8d4a1ad 100644
+--- a/contracts/bank/Bank.sol
++++ b/contracts/bank/Bank.sol
+@@ -52,7 +52,7 @@ contract Bank is RoleModule {
+         address receiver,
+         uint256 amount,
+         bool shouldUnwrapNativeToken
+-    ) external onlyController {
++    ) external {
+         address wnt = TokenUtils.wnt(dataStore);
+ 
+         if (token == wnt && shouldUnwrapNativeToken) {

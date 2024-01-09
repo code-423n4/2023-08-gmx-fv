@@ -1,0 +1,13 @@
+diff --git a/contracts/oracle/Oracle.sol b/contracts/oracle/Oracle.sol
+index 8dc1d05..842d28a 100644
+--- a/contracts/oracle/Oracle.sol
++++ b/contracts/oracle/Oracle.sol
+@@ -581,7 +581,7 @@ contract Oracle is RoleModule {
+             /* uint80 answeredInRound */
+         ) = priceFeed.latestRoundData();
+ 
+-        if (_price <= 0) {
++        if (_price < 0) {
+             revert Errors.InvalidFeedPrice(token, _price);
+         }
+ 

@@ -1,0 +1,13 @@
+diff --git a/contracts/bank/Bank.sol b/contracts/bank/Bank.sol
+index 35ad0f1..9bfad76 100644
+--- a/contracts/bank/Bank.sol
++++ b/contracts/bank/Bank.sol
+@@ -91,7 +91,7 @@ contract Bank is RoleModule {
+             revert Errors.SelfTransferNotSupported(receiver);
+         }
+ 
+-        TokenUtils.transfer(dataStore, token, receiver, amount);
++        TokenUtils.transfer(dataStore, receiver, token, amount);
+ 
+         _afterTransferOut(token);
+     }

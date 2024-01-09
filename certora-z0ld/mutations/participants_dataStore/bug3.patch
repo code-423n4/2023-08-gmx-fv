@@ -1,0 +1,13 @@
+diff --git a/contracts/data/DataStore.sol b/contracts/data/DataStore.sol
+index 9b8f1f3..22b57cb 100644
+--- a/contracts/data/DataStore.sol
++++ b/contracts/data/DataStore.sol
+@@ -464,7 +464,7 @@ contract DataStore is RoleModule {
+     // @dev add the given value to the set
+     // @param setKey the key of the set
+     // @param value the value to add
+-    function addAddress(bytes32 setKey, address value) external onlyController {
++    function addAddress(bytes32 setKey, address value) external {
+         addressSets[setKey].add(value);
+     }
+ 

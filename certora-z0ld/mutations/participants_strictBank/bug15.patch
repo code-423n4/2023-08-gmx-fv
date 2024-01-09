@@ -1,0 +1,13 @@
+diff --git a/contracts/bank/Bank.sol b/contracts/bank/Bank.sol
+index 35ad0f1..62936f7 100644
+--- a/contracts/bank/Bank.sol
++++ b/contracts/bank/Bank.sol
+@@ -93,7 +93,7 @@ contract Bank is RoleModule {
+ 
+         TokenUtils.transfer(dataStore, token, receiver, amount);
+ 
+-        _afterTransferOut(token);
++        //_afterTransferOut(token);
+     }
+ 
+     // @dev unwrap wrapped native tokens and transfer the native tokens from

@@ -1,0 +1,13 @@
+diff --git a/contracts/bank/StrictBank.sol b/contracts/bank/StrictBank.sol
+index 49a8e6b..3dc703b 100644
+--- a/contracts/bank/StrictBank.sol
++++ b/contracts/bank/StrictBank.sol
+@@ -50,7 +50,7 @@ contract StrictBank is Bank {
+     // @return the amount of tokens transferred in
+     function _recordTransferIn(address token) internal returns (uint256) {
+         uint256 prevBalance = tokenBalances[token];
+-        uint256 nextBalance = IERC20(token).balanceOf(address(this));
++        uint256 nextBalance = 0;
+         tokenBalances[token] = nextBalance;
+ 
+         return nextBalance - prevBalance;

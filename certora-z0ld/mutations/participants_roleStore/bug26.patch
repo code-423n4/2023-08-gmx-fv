@@ -1,0 +1,12 @@
+diff --git a/contracts/role/RoleStore.sol b/contracts/role/RoleStore.sol
+index 5868ccc..75a34b6 100644
+--- a/contracts/role/RoleStore.sol
++++ b/contracts/role/RoleStore.sol
+@@ -83,6 +83,7 @@ contract RoleStore {
+      * @return The keys of the roles.
+      */
+     function getRoles(uint256 start, uint256 end) external view returns (bytes32[] memory) {
++        assert(false);
+         return roles.valuesAt(start, end);
+     }
+ 

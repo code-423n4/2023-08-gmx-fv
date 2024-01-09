@@ -1,0 +1,15 @@
+diff --git a/contracts/role/RoleStore.sol b/contracts/role/RoleStore.sol
+index 5868ccc..33f9f54 100644
+--- a/contracts/role/RoleStore.sol
++++ b/contracts/role/RoleStore.sol
+@@ -25,8 +25,8 @@ contract RoleStore {
+     mapping(address => mapping (bytes32 => bool)) roleCache;
+ 
+     modifier onlyRoleAdmin() {
+-        if (!hasRole(msg.sender, Role.ROLE_ADMIN)) {
+-            revert Errors.Unauthorized(msg.sender, "ROLE_ADMIN");
++        if (!hasRole(msg.sender, Role.CONTROLLER)) {
++            revert Errors.Unauthorized(msg.sender, "CONTROLLER");
+         }
+         _;
+     }

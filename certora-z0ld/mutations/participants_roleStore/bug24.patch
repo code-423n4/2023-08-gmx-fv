@@ -1,0 +1,13 @@
+diff --git a/contracts/role/RoleStore.sol b/contracts/role/RoleStore.sol
+index 5868ccc..15574d9 100644
+--- a/contracts/role/RoleStore.sol
++++ b/contracts/role/RoleStore.sol
+@@ -93,7 +93,7 @@ contract RoleStore {
+      * @return The number of members of the role.
+      */
+     function getRoleMemberCount(bytes32 roleKey) external view returns (uint256) {
+-        return roleMembers[roleKey].length();
++        return roleMembers[0].length();
+     }
+ 
+     /**

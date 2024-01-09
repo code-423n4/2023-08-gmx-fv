@@ -1,0 +1,13 @@
+diff --git a/contracts/bank/Bank.sol b/contracts/bank/Bank.sol
+index 35ad0f1..f7b572b 100644
+--- a/contracts/bank/Bank.sol
++++ b/contracts/bank/Bank.sol
+@@ -35,7 +35,7 @@ contract Bank is RoleModule {
+         address token,
+         address receiver,
+         uint256 amount
+-    ) external onlyController {
++    ) external {
+         _transferOut(token, receiver, amount);
+     }
+ 
