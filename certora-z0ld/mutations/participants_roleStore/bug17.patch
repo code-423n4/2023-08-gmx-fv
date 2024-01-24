@@ -1,0 +1,13 @@
+diff --git a/contracts/role/RoleStore.sol b/contracts/role/RoleStore.sol
+index 5868ccc..0c8e2f3 100644
+--- a/contracts/role/RoleStore.sol
++++ b/contracts/role/RoleStore.sol
+@@ -116,7 +116,7 @@ contract RoleStore {
+ 
+     function _revokeRole(address account, bytes32 roleKey) internal {
+         roleMembers[roleKey].remove(account);
+-        roleCache[account][roleKey] = false;
++        //roleCache[account][roleKey] = false;
+ 
+         if (roleMembers[roleKey].length() == 0) {
+             if (roleKey == Role.ROLE_ADMIN) {

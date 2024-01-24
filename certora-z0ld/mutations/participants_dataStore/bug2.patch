@@ -1,0 +1,13 @@
+diff --git a/contracts/data/DataStore.sol b/contracts/data/DataStore.sol
+index 9b8f1f3..a5b3d2b 100644
+--- a/contracts/data/DataStore.sol
++++ b/contracts/data/DataStore.sol
+@@ -63,7 +63,7 @@ contract DataStore is RoleModule {
+     // @param key the key of the value
+     // @param value the value to set
+     // @return the uint value for the key
+-    function setUint(bytes32 key, uint256 value) external onlyController returns (uint256) {
++    function setUint(bytes32 key, uint256 value) external returns (uint256) {
+         uintValues[key] = value;
+         return value;
+     }

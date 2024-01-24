@@ -1,0 +1,13 @@
+diff --git a/contracts/role/RoleStore.sol b/contracts/role/RoleStore.sol
+index 5868ccc..b086b7a 100644
+--- a/contracts/role/RoleStore.sol
++++ b/contracts/role/RoleStore.sol
+@@ -63,7 +63,7 @@ contract RoleStore {
+      * @return True if the account has the role, false otherwise.
+      */
+     function hasRole(address account, bytes32 roleKey) public view returns (bool) {
+-        return roleCache[account][roleKey];
++        return roleCache[account][0];
+     }
+ 
+     /**

@@ -1,0 +1,12 @@
+diff --git a/contracts/bank/StrictBank.sol b/contracts/bank/StrictBank.sol
+index 49a8e6b..f5c1fc7 100644
+--- a/contracts/bank/StrictBank.sol
++++ b/contracts/bank/StrictBank.sol
+@@ -60,6 +60,6 @@ contract StrictBank is Bank {
+     // this is called from the Bank contract
+     // @param token the token that was transferred out
+     function _afterTransferOut(address token) internal override {
+-        tokenBalances[token] = IERC20(token).balanceOf(address(this));
++        tokenBalances[token] = IERC20(token).balanceOf(address(token));
+     }
+ }

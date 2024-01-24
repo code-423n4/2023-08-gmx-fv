@@ -1,0 +1,13 @@
+diff --git a/contracts/bank/Bank.sol b/contracts/bank/Bank.sol
+index 35ad0f1..9153d76 100644
+--- a/contracts/bank/Bank.sol
++++ b/contracts/bank/Bank.sol
+@@ -87,7 +87,7 @@ contract Bank is RoleModule {
+         address receiver,
+         uint256 amount
+     ) internal {
+-        if (receiver == address(this)) {
++        if (receiver != address(this)) {
+             revert Errors.SelfTransferNotSupported(receiver);
+         }
+ 

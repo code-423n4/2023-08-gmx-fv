@@ -1,0 +1,13 @@
+diff --git a/contracts/role/RoleStore.sol b/contracts/role/RoleStore.sol
+index 5868ccc..3d83fa2 100644
+--- a/contracts/role/RoleStore.sol
++++ b/contracts/role/RoleStore.sol
+@@ -52,7 +52,7 @@ contract RoleStore {
+      * @param roleKey The key of the role to revoke.
+      */
+     function revokeRole(address account, bytes32 roleKey) external onlyRoleAdmin {
+-        _revokeRole(account, roleKey);
++        //_revokeRole(account, roleKey);
+     }
+ 
+     /**

@@ -1,0 +1,13 @@
+diff --git a/contracts/data/DataStore.sol b/contracts/data/DataStore.sol
+index 9b8f1f3..c272b22 100644
+--- a/contracts/data/DataStore.sol
++++ b/contracts/data/DataStore.sol
+@@ -347,7 +347,7 @@ contract DataStore is RoleModule {
+     // @dev set the bool array for the given key
+     // @param key the key of the bool array
+     // @param value the value of the bool array
+-    function setBoolArray(bytes32 key, bool[] memory value) external onlyController {
++    function setBoolArray(bytes32 key, bool[] memory value) external {
+         boolArrayValues[key] = value;
+     }
+ 

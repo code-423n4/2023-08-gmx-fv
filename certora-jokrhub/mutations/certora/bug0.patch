@@ -1,0 +1,13 @@
+diff --git a/contracts/bank/StrictBank.sol b/contracts/bank/StrictBank.sol
+index 49a8e6b..83cf8ca 100644
+--- a/contracts/bank/StrictBank.sol
++++ b/contracts/bank/StrictBank.sol
+@@ -41,7 +41,7 @@ contract StrictBank is Bank {
+     // @return the new balance
+     function syncTokenBalance(address token) external onlyController returns (uint256) {
+         uint256 nextBalance = IERC20(token).balanceOf(address(this));
+-        tokenBalances[token] = nextBalance;
++        tokenBalances[token] += nextBalance;
+         return nextBalance;
+     }
+ 

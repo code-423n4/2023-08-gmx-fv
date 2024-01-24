@@ -1,0 +1,13 @@
+50diff --git a/contracts/role/RoleStore.sol b/contracts/role/RoleStore.sol
+index 5868ccc..b0a3322 100644
+--- a/contracts/role/RoleStore.sol
++++ b/contracts/role/RoleStore.sol
+@@ -42,7 +42,7 @@ contract RoleStore {
+      * @param roleKey The key of the role to grant.
+      */
+     function grantRole(address account, bytes32 roleKey) external onlyRoleAdmin {
+-        _grantRole(account, roleKey);
++        _grantRole(account, 0);
+     }
+ 
+     /**

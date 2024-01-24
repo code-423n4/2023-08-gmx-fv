@@ -1,0 +1,13 @@
+diff --git a/contracts/oracle/OracleStore.sol b/contracts/oracle/OracleStore.sol
+index 7e3822e..d3dddec 100644
+--- a/contracts/oracle/OracleStore.sol
++++ b/contracts/oracle/OracleStore.sol
+@@ -31,7 +31,7 @@ contract OracleStore is RoleModule {
+ 
+     // @dev adds a signer
+     // @param account address of the signer to add
+-    function addSigner(address account) external onlyController {
++    function addSigner(address account) external {
+         signers.add(account);
+ 
+         EventUtils.EventLogData memory eventData;

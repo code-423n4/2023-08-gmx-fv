@@ -1,0 +1,13 @@
+diff --git a/contracts/bank/StrictBank.sol b/contracts/bank/StrictBank.sol
+index 49a8e6b..3eedcad 100644
+--- a/contracts/bank/StrictBank.sol
++++ b/contracts/bank/StrictBank.sol
+@@ -29,7 +29,7 @@ contract StrictBank is Bank {
+     // @dev records a token transfer into the contract
+     // @param token the token to record the transfer for
+     // @return the amount of tokens transferred in
+-    function recordTransferIn(address token) external onlyController returns (uint256) {
++    function recordTransferIn(address token) external returns (uint256) {
+         return _recordTransferIn(token);
+     }
+ 

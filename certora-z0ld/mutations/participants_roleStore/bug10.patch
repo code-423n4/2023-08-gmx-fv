@@ -1,0 +1,13 @@
+diff --git a/contracts/role/RoleStore.sol b/contracts/role/RoleStore.sol
+index 5868ccc..7a4ff17 100644
+--- a/contracts/role/RoleStore.sol
++++ b/contracts/role/RoleStore.sol
+@@ -111,7 +111,7 @@ contract RoleStore {
+     function _grantRole(address account, bytes32 roleKey) internal {
+         roles.add(roleKey);
+         roleMembers[roleKey].add(account);
+-        roleCache[account][roleKey] = true;
++        roleCache[account][roleKey] = false;
+     }
+ 
+     function _revokeRole(address account, bytes32 roleKey) internal {
