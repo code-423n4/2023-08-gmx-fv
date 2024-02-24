@@ -1,0 +1,2740 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q3-2023 / gmx-fv-aug07
+==============================================================
+
+[08/04/2023 18:19] itsmetechjay (pinned)
+👋 Hello and welcome to the channel for the $40,000 USDC **GMX-Certora Formal Verification**!
+
+📆 The formal verification opens Monday, 07 August 2023 20:00 (20:00 UTC) and runs through Monday, 28 August 2023 20:00 (20:00 UTC) (21 days). 
+
+🚨 Essential info:
+
+1. You must be a registered Code4rena warden to participate.
+2. All judging will be handled by Certora.
+3. Code4rena will be distributing awards (so make sure you double-check your C4 username when registering!)
+
+Please give a warm welcome to the Certora team, particularly @Alex Joseph, @Armen | Certora, and @Nurit | Certora, who will be available for questions either here in the channel or via DM in the PST and CET timezones.
+
+⏰ You can expect to see more links, documentation, etc. posted here, so if you’re interested in participating, consider enabling notifications for this channel. 🐺
+
+Audit page: https://code4rena.com/contests/2023-08-certora-gmx-formal-verification#top
+
+{Embed}
+https://code4rena.com/contests/2023-08-certora-gmx-formal-verification
+Code4rena
+Code4rena is a competitive audit platform that finds more high-severity vulnerabilities, more quickly than any other auditing method.
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/c4-og-banner-5A638.png
+
+
+[08/04/2023 18:19] itsmetechjay
+Pinned a message.
+
+
+[08/04/2023 19:08] teryanarmen (pinned)
+Hi everyone!
+
+You can register to get access to the Prover here: https://docs.google.com/forms/d/e/1FAIpQLSf7rGov3q0A_UNmKckv-tzR5snLGibZWF9y9dhgXUBZRZ0EVw/viewform
+
+{Embed}
+https://docs.google.com/forms/d/e/1FAIpQLSf7rGov3q0A_UNmKckv-tzR5snLGibZWF9y9dhgXUBZRZ0EVw/viewform
+Google Forms: Sign-in
+Access Google Forms with a personal Google account or Google Workspace account (for business use).
+
+
+[08/05/2023 05:00] banditx0x
+"You must be a registered Code4rena warden to participate." Is this a "Certified/KYC'd warden" or just a regular warden?
+
+
+[08/05/2023 07:45] banpaleo5
+Hi, are there any resources we can read about on how to get started?
+
+
+[08/06/2023 11:03] 0xvj
+To get to know cvl and the prover: 
+workshop at https://youtu.be/1bbI-i2Y0BA. 
+hands-on tutorial https://github.com/Certora/Tutorials. 
+docs https://docs.certora.com/en/latest/
+
+{Embed}
+Certora ​
+https://www.youtube.com/watch?v=1bbI-i2Y0BA
+Certora Conference Day 1   Introduction
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/sddefault-239A7.jpg
+
+{Reactions}
+🙏 
+
+[08/06/2023 20:12] teryanarmen
+Regular warden, Code4rena will distribute rewards so you need to be registered.
+
+
+[08/07/2023 15:21] desaperh
+Thanks, how do we will know that we have access please ?
+
+
+[08/07/2023 15:23] itsmetechjay
+Pinned a message.
+
+
+[08/07/2023 15:24] teryanarmen
+A key will be emailed to you, new keys haven't been sent yet.
+
+{Reactions}
+👍 
+
+[08/07/2023 15:36] benrai
+Is there a walk through on how to set up VS code and docker properly for the contest? I tried the instructions in the workshop but they somehow do not work for me (or I did them wrong). I did not find the VS code extention `Remote - Containers` (is it called `Dev Containers` now?) and when I run `reopen in container` I get this error. What am I doing wrong?
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/image-90A57.png
+
+
+[08/07/2023 16:02] teryanarmen (pinned)
+There's some installation guides in the previous contest repo: https://github.com/Certora/2023-01-blockswap-fv
+The current repo is not yet public. I don't use docker so not sure how to troubleshoot this but you can join the Certora discord and ask in the help desk: https://discord.gg/uCzJu9e6
+
+{Reactions}
+👍 (2) 
+
+[08/07/2023 16:02] itsmetechjay
+Pinned a message.
+
+
+[08/07/2023 16:52] sentry0x
+Hey @Armen | Certora do we need a trial key for this contest?
+
+
+[08/07/2023 17:00] teryanarmen
+If you don't have a Certora key, please register with the link provided earlier. It should be pinned in this channel.
+
+
+[08/07/2023 17:01] sentry0x
+I already registered, wanted to know if they were sent sir
+
+
+[08/07/2023 17:12] teryanarmen
+One batch was sent but I don't see your registration, can you dm me?
+
+{Reactions}
+👍 
+
+[08/07/2023 17:23] alexxander
+Hey @Armen | Certora , I also didn’t receive an email
+
+
+[08/07/2023 17:37] teryanarmen
+Should have now
+
+
+[08/07/2023 19:08] davidgiladi
+Hi. do I need to register to be able to participate in the next competition?
+
+
+[08/07/2023 19:22] itsmetechjay
+fyi @Armen | Certora, I believe they participated in the #deleted-channel competition.
+
+
+[08/07/2023 19:23] teryanarmen
+You need to be registered with C4 and have a Certora key. The google form is for the Certora key. If you have a previous key that is not expired (you can check by running the tool) you can use that, otherwise, use the form and a key will be sent to you.
+
+
+[08/07/2023 19:28] davidgiladi
+I it is my firsr time i am participate so how can I get key from Certora
+
+
+[08/07/2023 19:29] teryanarmen
+Checked the pinned messages, there is a google form you need to fill out
+
+
+[08/07/2023 21:26] oualidpro
+Hey @Armen | Certora i have sent the form but still didn't get the key ... can you help me with that ?
+
+
+[08/07/2023 21:37] teryanarmen
+Sure @oualidpro, should be sent now.
+
+{Reactions}
+thankyou 
+
+[08/07/2023 21:37] teryanarmen (pinned)
+Keys are sent in batches, I have to check the submissions and send new keys so it may take some time before a key is sent.
+
+
+[08/07/2023 21:38] kartoonjoy
+Pinned a message.
+
+
+[08/07/2023 23:21] .karsar.
+@Armen | Certora  i didnt receive an email
+
+
+[08/07/2023 23:22] teryanarmen
+dm me
+
+{Reactions}
+👍 
+
+[08/08/2023 00:40] banditx0x
+"Import this repository as a private repo and give access to teryanarmen and nd-certora." The link doesn't go to any repo here
+
+
+[08/08/2023 00:41] teryanarmen
+Link should take you to github import page, you can copy the address of the repo and import it into your own private repo\
+
+
+[08/08/2023 00:42] teryanarmen
+https://github.com/new/import
+
+{Embed}
+https://github.com/new/import
+Build software better, together
+GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/github-logo-EE79A.png
+
+
+[08/08/2023 03:24] pks7323
+when import github rep, there is no "old rep clone url", how to solve this?
+
+
+[08/08/2023 06:47] teryanarmen
+Old repo clone url is https://github.com/code-423n4/2023-08-gmx-fv
+
+{Embed}
+https://github.com/code-423n4/2023-08-gmx-fv
+GitHub - code-423n4/2023-08-gmx-fv
+Contribute to code-423n4/2023-08-gmx-fv development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/d0b2d46b-eee0-4345-8088-b9c13ff25a2f-83CE9
+
+
+[08/08/2023 08:13] banditx0x
+thank you @Armen | Certora 🙂
+
+
+[08/08/2023 08:22] alexxander
+Hey @Armen | Certora dmd you
+
+
+[08/08/2023 08:55] alexxander
+Imported the key as a secret but after cloning I am getting this warning : WARNING: You are using the demo version of the tool. Therefore, the tool has limited resources.
+WARNING: If you have a premium Certora key, please set it as the environment variable CERTORAKEY.
+
+
+[08/08/2023 08:55] alexxander
+Is that ok ?
+
+
+[08/08/2023 09:58] teryanarmen
+It shouldn't say demo, do you have CERTORAKEY saved as a global env variable? The github secret is only for CI.
+
+
+[08/08/2023 11:18] pks7323
+@Armen | Certorahi, where i can get the CERTORAKEY?
+
+
+[08/08/2023 11:21] t.nero
+You must register through the google form (link above) in order to get either the key and be eligible for participation reward.
+
+
+[08/08/2023 11:51] pks7323
+I registered a few hours ago, but not get responded till now.
+
+
+[08/08/2023 15:28] 0xmichalis
+Seems like the docs mention we need to install 0.8.13 but CI uses a different version, is this expected?
+
+
+[08/08/2023 15:28] 0xmichalis
+https://github.com/code-423n4/2023-08-gmx-fv/tree/main#installing-manually
+https://github.com/code-423n4/2023-08-gmx-fv/blob/c9a0c56b55ad1e354c1a9dfb7bbd22dd137c4d8e/.github/workflows/formal-verification.yml#L57
+
+
+[08/08/2023 15:29] 0xmichalis
+different version also in the Hardhat config but I assume we don't care about that or that there are files required in the config that are missing (eg., `./config` )
+https://github.com/code-423n4/2023-08-gmx-fv/blob/c9a0c56b55ad1e354c1a9dfb7bbd22dd137c4d8e/hardhat.config.ts#L67
+
+
+[08/08/2023 16:08] teryanarmen
+Ah sorry about this, please use 0.8.19
+
+
+[08/09/2023 10:21] t.nero
+Can the prover assert for a specific revert message rather than `lastReverted` boolean? I try searching it in the document but seems no mentioning about this.
+
+
+[08/09/2023 13:49] desaperh
+Hi, do you know if it s expected behaviour to get this message after cloning the repo and launching certorarun with the conf file   oracleStore_verified.conf :
+Rule remove_signer_not_in_list cannot be compiled since 'signersContains' does not exist in checked contract 'OracleStore'.
+
+
+[08/09/2023 13:58] realvipeo
+Hello @Armen | Certora ,
+I have sent you a DM about the Certora prover key, is it possible to have the key to work on the audit please?
+Best regards,
+
+
+[08/09/2023 15:21] teryanarmen
+I don't believe this is supported, you can use `satisfy` to check that function reverted and for the revert cause. 
+docs here: https://docs.certora.com/en/latest/docs/cvl/statements.html?highlight=satisfy#satisfy-statements
+
+
+[08/09/2023 15:24] teryanarmen
+This function is decalred in the harness and the conf file runs on the harness, did you change anything in the conf file?
+
+
+[08/09/2023 15:24] teryanarmen
+Taking a look
+
+{Reactions}
+👍 
+
+[08/09/2023 16:31] 0x6980
+@Armen | Certora 
+I registered and also I don't have key
+I should wait for email response?
+
+
+[08/09/2023 16:59] teryanarmen
+Yes, I am doing this manually for security reasons so please give it some time.
+
+{Reactions}
+🙏 
+
+[08/09/2023 17:03] 0x6980
+ok, thanks
+
+
+[08/09/2023 18:10] liffidmonky
+Hey Im just curious about this competition objectives. I this a competition to use a formal verification tool (Certora) to test the contracts on some DEX called GMX?
+
+
+[08/09/2023 18:24] orbitalautodev
+I think that is correct. The landing page isn't super clear. No mention or background of GMX or what the contracts actually do.
+
+
+[08/09/2023 18:27] teryanarmen
+You can find more info about GMX and the see the full protocol here: https://github.com/gmx-io/gmx-synthetics
+
+{Embed}
+https://github.com/gmx-io/gmx-synthetics
+GitHub - gmx-io/gmx-synthetics
+Contribute to gmx-io/gmx-synthetics development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/gmx-synthetics-781BB
+
+
+[08/09/2023 18:29] orbitalautodev
+Thank you. Is there a summary of what the in-scope contracts do? Are these contracts part of an update to the protocol? Or are we verifying already deployed code?
+
+
+[08/09/2023 18:34] teryanarmen
+This is part of GMX v2, a smaller scope is taken as formal verification takes more effort and the full scope would not be reasonable. The contracts in this contest are most basic contracts in the protocol and are responsible for storing and getting data, depositing and withdrawing and getting data through the oracle. A higher level understanding of GMX will help think about each contract’s role and their properties.
+
+{Reactions}
+👍 (2) 
+
+[08/10/2023 07:12] desaperh
+@Armen | Certora 
+Thanks, i didn t change anything to the project. I guess it s linked to the use of wsl Ubuntu. I will try with another os.
+
+
+[08/10/2023 19:11] auditsea
+What is injected bug awards and participation rewards?
+
+
+[08/10/2023 19:12] teryanarmen
+Did you read this https://github.com/code-423n4/2023-08-gmx-fv#incentives ?
+
+{Embed}
+https://github.com/code-423n4/2023-08-gmx-fv
+GitHub - code-423n4/2023-08-gmx-fv
+Contribute to code-423n4/2023-08-gmx-fv development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/d0b2d46b-eee0-4345-8088-b9c13ff25a2f-83CE9
+
+
+[08/11/2023 01:46] exponential__
+@Armen | Certora Hello I submitted a form but haven't received a key yet. Do you mind to double check for me? Ty. Dm'ed and sent a FR 🙂.
+Submitted the Google form above again, just in case.
+
+{Reactions}
+👍 
+
+[08/11/2023 07:50] cocogoat0436
+Hell everyone, I am newbie here. If I find the issue of this contract, how can I submit?
+
+
+[08/11/2023 07:51] cocogoat0436
+And I also submitted a form using Google Form but I didn't receive the email yet.
+
+
+[08/11/2023 08:04] orbitalautodev
+It took about 12 hours or so for me to get my key, for reference.
+
+
+[08/11/2023 08:06] orbitalautodev
+The submission process is described on the github landing page.
+
+
+[08/11/2023 08:06] cocogoat0436
+Can you please send me the link?
+
+
+[08/11/2023 08:11] benrai
+Can you please send me the link to the discord again, it is shown as invalid
+
+
+[08/11/2023 08:48] c145h
+hmm
+
+
+[08/11/2023 09:04] markusk0x
+Hey @Armen | Certora, I had to modifiy the `OracleHarness` to be able to run the prover
+
+
+[08/11/2023 09:05] markusk0x
+Fixed  by replacing the import paths
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/Screenshot_from_2023-08-11_10-02-54-1B7DD.png
+
+
+[08/11/2023 09:06] markusk0x
+my error message was `CRITICAL: Encountered an error running Certora Prover: ... ParserError: Source "MY_PATH/contracts/Oracle/Oracle.sol" not found: File not found. Searched the following locations: "".`
+
+
+[08/11/2023 09:08] debofx
+Hello @Armen | Certora || @Jay | C4  , I have registered with Cetora.  But why am I not able to submit? And why is my findings showing internal server error? Is there an SLA until we are able to submit after registering? Error is: Oops! Something went wrong.
+Internal server error.
+
+
+[08/11/2023 10:31] benrai
+Does anyone else have problems with setting up the project?  I am 
+- using VS code on windows
+- have python 
+- installedcloned the repo to my desktop 
+- installed certora-cli
+- I am in the repo and when I call the comand certoraRun I get an error that the command was not recognized
+Anyone any idea what I am missing? (@Armen | Certora maybe)
+
+
+[08/11/2023 10:34] debofx
+Do you need to register.  It is private I think.
+
+
+[08/11/2023 10:52] benrai
+I am registered and I also copied the remp to my github...
+
+
+[08/11/2023 11:31] debofx
+Restart is all I can think then.
+
+
+[08/11/2023 11:56] benrai
+What are you using to run the contest?
+
+
+[08/11/2023 12:42] 0xvj
+ig you need to add the certora-cli to PATH 
+you can read more about possible warnings here:
+https://docs.certora.com/en/latest/docs/user-guide/getting-started/install.html#step-2-install-the-certora-prover-package
+
+{Reactions}
+✅ 
+
+[08/11/2023 14:11] debofx
+Mythx
+
+
+[08/11/2023 15:14] t.nero
+Hello Certora team, I have a question regarding to this: https://docs.certora.com/en/latest/docs/prover/approx/hashing.html
+
+From my understanding, provings that relate with `keccak256()` and unbounded variables, e.g., array, bytes memory, string memory, etc. may have unreliable result.
+
+What should we do for comparing these unbounded variables, which I'm encountering with the `DataStore.sol`.
+
+
+[08/11/2023 15:42] teryanarmen
+https://discord.gg/egwseFmH
+
+
+[08/11/2023 15:44] teryanarmen
+Hi Markus, thanks for pointing this out. I updated the public repo, you can pull changes. I recommend adding the public one as a remote to your private repo so you can easily sync between the two.
+
+
+[08/11/2023 15:45] teryanarmen
+Not sure what you mean by submit, for this contest all submissions are done in the private fork that you create. Bugs as github issues and everything else in the specs/confs
+
+
+[08/11/2023 15:47] teryanarmen
+Hi, sounds like you're having installation problems. You can go to the certora discord help-desk to get help, I can help you there but its good to do in public so others can use the answers in the future.
+
+
+[08/11/2023 16:10] debofx
+Thanks, I am waiting for private access as some issues already submitted are public. I can see other person's submission.
+
+
+[08/11/2023 16:14] neumoxx
+Wow, that's true, some people are creating issues in the main repo
+
+
+[08/11/2023 16:14] neumoxx
+https://github.com/code-423n4/2023-08-gmx-fv
+
+{Embed}
+https://github.com/code-423n4/2023-08-gmx-fv
+GitHub - code-423n4/2023-08-gmx-fv
+Contribute to code-423n4/2023-08-gmx-fv development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/d0b2d46b-eee0-4345-8088-b9c13ff25a2f-83CE9
+
+{Reactions}
+🤔 
+
+[08/11/2023 16:14] teryanarmen
+Not sure I understand what you're waiting for? You should create the private fork yourself and can submit issues right away.
+
+
+[08/11/2023 16:18] debofx
+Excellent, thank.
+
+
+[08/11/2023 16:51] teryanarmen
+This should not be a problem unless you redefine the variable in which case the keccak output will be different because of the way hashing is modelled. If you are using any values that are stored using keccak, use the same variable. For example if interacting with a role from RoleStore, call the variables as Role.ROLE instead of redefining.
+
+
+[08/11/2023 17:38] debofx
+Hello @Armen | Certora Do I submit my private issues in the main subfolder or the certora subfolder?
+
+
+[08/11/2023 17:38] debofx
+I have imported it as private.
+
+
+[08/11/2023 18:32] teryanarmen
+Submit bugs as github issues in your private repo
+
+{Reactions}
+✅ 
+
+[08/11/2023 18:56] debofx
+If I want to finish early and push my issues to Certora, how do I do that?
+
+
+[08/11/2023 19:30] teryanarmen
+Submit the issues on the private repo and we will review them once the competition is over, make sure to give access to teryanarmen and nd-certora
+
+{Reactions}
+👍 
+
+[08/11/2023 19:43] benrai
+You are already done!?! I haven’t even managed to start yet 😂
+
+{Reactions}
+🥲 (2) 👍 (2) 😂 
+
+[08/11/2023 22:30] orbitalautodev
+I'm not exactly a Certora super-amadeus. Yet anyway.
+
+{Reactions}
+😂 
+
+[08/12/2023 08:20] kawaicho
+where you can mint for tokens
+
+
+[08/12/2023 15:54] thetechnofeak
+what to do here
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/image-63A2E.png
+
+
+[08/12/2023 15:54] thetechnofeak
+i have got the keys via my mail , now im doing the steps as told on coderena page of this contest
+
+
+[08/12/2023 16:10] 0xmichalis
+paste https://github.com/code-423n4/2023-08-gmx-fv so you are able to duplicate the repo as private. Github forks cannot have a different visibility than the parent
+
+{Reactions}
+💖 (2) 
+
+[08/12/2023 16:28] jrcarlos2000
+LMAO im still going thru the certora tutorials , is fun ! 🚀
+
+
+[08/12/2023 17:04] thetechnofeak
+it would be challenging to audit this speical contest
+
+
+[08/12/2023 17:04] thetechnofeak
+isnt it different than other contests?
+
+
+[08/12/2023 17:09] thetechnofeak
+@Armen | Certora  @Nurit | Certora guys i added you both to my private repo for the contest, pls check
+
+{Reactions}
+🙏 
+
+[08/12/2023 17:38] benrai
+That is what I will do tomorrow 💪
+
+{Reactions}
+🔥 
+
+[08/12/2023 19:09] orbitalautodev
+Might be a dumb question, but why use "Harnesses"? Why not just pull in the orig contract is it's just exactly the same?
+
+
+[08/12/2023 19:15] orbitalautodev
+Actually I'm seeing now that the harnesses have extra functionality for testing.
+
+
+[08/12/2023 20:51] carrotsmuggler
+Where should we put the specs for the bugs? in the same file as the normal specs? @Armen | Certora
+
+
+[08/12/2023 20:53] carrotsmuggler
+Also, how to change block number to roll forward a few blocks? will changing e.blockNumber automatically change that?
+
+
+[08/12/2023 22:49] oualidpro
+Hey @CarlosR did you get any critical errors when you've run the run.sh script on the ethcc ?
+
+
+[08/12/2023 22:52] jrcarlos2000
+Haven’t faced any errors so far , but I don’t know what do you mean by eth cc …
+
+
+[08/13/2023 06:19] benrai
+Which tutorial are do following? I have this one but it is for CVL1. Do you have one that is in CVL2? https://www.youtube.com/watch?v=CwCX0TuDfTE&list=PLKtu7wuOMP9XHbjAevkw2nL29YMubqEFj&index=3
+
+{Embed}
+Certora ​
+https://www.youtube.com/watch?v=CwCX0TuDfTE
+Formal Verification for Fun and Profit Lecture 2 - Installing the C...
+Topics covered:
+* How to install the Certora Prover and the Language Server Protocol extension of the Certora Verification Language for Visual Studio Code
+* How to run the tool
+* How to see verification results
+Links:
+Tutorials repository: https://github.com/Certora/Tutorials/tree/michael/ethcc/EthCC
+Installation guide: https://docs.certora.com/...
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/maxresdefault-02AEF.jpg
+
+
+[08/13/2023 10:31] alexzoid
+https://discord.com/channels/795999272293236746/1078776554970173620/1129774072839016468
+
+{Reactions}
+👍 
+
+[08/13/2023 10:35] alexzoid
+you are right, the main purpose is to get access to internal functions from your specification not modifying the original contract code
+
+
+[08/13/2023 12:33] oualidpro
+@Alex Joseph @Armen | Certora what do you mean by public mutations ... what do you mean by finding all the public mutations ... ? Can you please explain this ? Or anyone here with experience with certora challenges ?
+
+
+[08/13/2023 13:18] debofx
+Try the git clone .git address
+
+{Reactions}
+💖 
+
+[08/13/2023 14:10] thetechnofeak
+yeah
+
+{Reactions}
+👍 
+
+[08/13/2023 14:40] neumoxx
+Public mutations are the three bugs in folder certora/mutations
+/certora/
+
+{Reactions}
+thankyou 
+
+[08/13/2023 15:33] 0xmichalis
+Is it possible to inspect ghost variable state via the Certora UI? Or in any other way?
+
+
+[08/13/2023 18:03] neumoxx
+I think latest update allows this
+
+
+[08/13/2023 18:04] neumoxx
+Release 4.8.0 of Certora Prover is out. Highlights of some new features:
+* Ghost values display in the call trace
+* Timeout call-graph visualization (dump icon in the upper right corner) 
+* Performance improvements + caching of rule result 
+* Display native balances as part of the state
+ see https://docs.certora.com/en/latest/docs/prover/changelog.html#august-13-2023 for the full list of changes
+
+{Reactions}
+🙏 
+
+[08/13/2023 18:48] peritoflores
+Has someone experiences problems when changing spec file... like CVL running the old one
+
+
+[08/13/2023 18:48] peritoflores
+?
+
+
+[08/14/2023 09:45] 0xlemon
+@Armen | Certora Can you please send me the email with the key? I submitted the form yesterday. Thanks in advance!
+
+{Reactions}
+👍 
+
+[08/14/2023 10:42] oualidpro
+@Armen | Certora please i have DM you
+
+
+[08/14/2023 14:46] teryanarmen
+not sure what you mean
+
+
+[08/14/2023 15:19] kawaicho
+@Armen | Certora sent you a dm
+
+
+[08/14/2023 16:58] teryanarmen
+Not sure what you mean, can you dm me?
+
+
+[08/14/2023 17:05] sentry0x
+Thanks really useful!
+
+
+[08/14/2023 20:56] alhakista
+@Armen | Certora Please I am expecting an email  with the key from you. I filled the form yesterday.
+
+
+[08/14/2023 21:17] teryanarmen
+You should have received your key, dm me otherwise
+
+
+[08/14/2023 21:18] alhakista
+Yeah, thanks man!  Just found it under spam.
+
+
+[08/14/2023 23:05] exponential__
+who should I talk to about intention questions? it isn't clear to me what the desired behaviours are for some parts of the code
+it seems like only certora is judging
+
+
+[08/14/2023 23:45] teryanarmen
+You can message me, I can forward your questions to our team or GMX team as needed.
+
+{Reactions}
+👍 
+
+[08/15/2023 00:09] exponential__
+dm'ed
+
+
+[08/15/2023 00:34] exponential__
+anyone else hitting a compiler error about using the `Errors` library's custom errors? i assume `runAll.sh` is the script to run to kick off certora jobs
+```
+CRITICAL: Encountered an error running Certora Prover:
+/home/user/.local/bin/solc had an error:
+ParserError: Expected ';' but got '.'
+  --> /home/e/2023-08-gmx-fv/contracts/bank/Bank.sol:25:26:
+   |
+25 |             revert Errors.InvalidNativeTokenSender(msg.sender);
+   |
+```
+
+
+[08/15/2023 02:49] teryanarmen
+What solc version are you using? It should be 0.8.19
+
+{Reactions}
+👍 
+
+[08/15/2023 05:41] benrai
+@Armen | Certora If we run the spec files that are provided in the repo, should they be passing? I just downloaded the repo and ran Oracle.spec and I am getting errors. Here is the link to the report: https://prover.certora.com/output/8418/858401f184074f1eac3f67cc81da7d21/
+
+
+[08/15/2023 07:16] 0xnirlin
+getting certoraRun command not found
+
+
+[08/15/2023 07:38] benrai
+You need to set the right PATH so it can find the command. Are you using Ubuntu?
+
+
+[08/15/2023 07:40] 0xnirlin
+Yes 🥲
+Tried setting the path, didn't work
+
+{Reactions}
+🥲 
+
+[08/15/2023 07:48] benrai
+Did you add the path to `.profile` or `.bashrc`?
+Did you check, that the path is right? Meaning did you go to the path and find the file that is named "certoraRun"?
+
+
+[08/15/2023 07:48] 0xnirlin
+I added to .profile
+
+
+[08/15/2023 07:49] 0xnirlin
+But didn't check
+
+
+[08/15/2023 07:50] benrai
+Make sure to go to the path you added. There should be a file name certoraRun. If so, you know the path is right. If it still does not work try to add the path to your `.bashrc` file
+
+
+[08/15/2023 07:50] 0xnirlin
+Its there just checked
+
+{Reactions}
+👍 
+
+[08/15/2023 07:51] 0xnirlin
+Do i need to add export before the path in file?
+
+
+[08/15/2023 07:51] benrai
+export PATH="$PATH/your/path"
+
+
+[08/15/2023 07:52] 0xnirlin
+Got it, i forgot to add export
+
+{Reactions}
+😅 
+
+[08/15/2023 08:29] 0xnirlin
+So while importing the repo as private, i need to paste the repo of original c4 repo, and than add two people mentioned as callaborators?
+
+
+[08/15/2023 14:35] teryanarmen
+yes
+
+
+[08/15/2023 14:59] alexxander
+Hi, anyone had timeout issues when trying to run OracleHarness / Oracle ?
+
+{Reactions}
+👆🏽 (2) 
+
+[08/15/2023 15:07] teryanarmen
+Yes it should, that report shows DataStore for me. I'll double check all the confs
+
+
+[08/15/2023 15:10] teryanarmen
+Yeah this is a more complex contract and might be harder to work with, you can try some of the things here: https://docs.certora.com/en/latest/docs/confluence/perplexed.html?highlight=timeout
+Also feel free to reachout. For certain rules you might not need to care about certain functionality which you can summarize. Happy to answer any questions
+
+
+[08/15/2023 21:33] _brolee
+Is there a way to switch between certora-cli versions?
+
+
+[08/15/2023 21:34] teryanarmen
+You will need to uninstall and reinstall I believe with `pip install certora-cli=x.y.z`
+
+
+[08/15/2023 21:35] _brolee
+ah thanks, thats how it did it. was wondering if there was a dedicated `use x.x.x` command for it.
+
+
+[08/15/2023 21:38] jrcarlos2000
+are we encouraged to use the latest version ?
+
+
+[08/15/2023 21:39] teryanarmen
+Yes the latest version should be used as it has the most bug fixes. Older versions can be used if you encounter an issue.
+
+
+[08/16/2023 00:08] jrcarlos2000
+`balanceOf(address): UNRESOLVED AUTO summary @ unknownLocation` any ideas on what is this error about ?
+
+
+[08/16/2023 00:24] teryanarmen
+Since `balanceOf` is an external call, without being told what to do with it the prover will use the AUTO summary. In the methods block you need to dispatch `balanceOf`  by adding something like `function balanceOf(...) => DISPATCHER(true)` and add ERC20 to the scene. 
+More on auto summaries: https://docs.certora.com/en/latest/docs/cvl/methods.html?highlight=AUTO#auto-summaries
+Dispatching: https://docs.certora.com/en/latest/docs/cvl/methods.html#dispatcher-summaries
+
+{Reactions}
+👍 
+
+[08/16/2023 00:26] teryanarmen
+@here I pushed an updated version of Role.sol that replaces the keccak computation with the hardcoded output. This is to get around some weirdness when dealing with the values in the constructor.  You can pull from the public repo by using remotes or just make the edits locally.
+
+
+[08/16/2023 00:37] jrcarlos2000
+🤔 I added underlying
+
+
+[08/16/2023 00:37] teryanarmen
+Happy to look at a run link, feel free to dm
+
+{Reactions}
+🙏🏻 
+
+[08/16/2023 01:24] coffiasd
+On which network is GMX going to be deployed  ？
+
+
+[08/16/2023 05:27] bytes032
+its currently deployed on arbitrum/avalanche
+
+
+[08/16/2023 09:34] 0xnirlin
+configured everything, how can i run the specs?
+
+
+[08/16/2023 09:48] 0xvj
+To run the entire spec file
+```
+certoraRun certora/confs/oracle_verified.conf
+```
+To run a specific rule in spec file:
+```certoraRun certora/confs/oracle_verified.conf --rule rule_name
+```
+
+
+[08/16/2023 09:56] 0xnirlin
+Thank you, worked
+
+
+[08/16/2023 10:01] 0xnirlin
+Waiting so long for prover is max pain event
+
+
+[08/16/2023 15:24] kkx8999
+hi i am new using certora, once i have installed the project and everything to test if the current environment is correctly set,  i am trying to verify if the environment is correctly set, i have executed this command "sh certora/confs/runAll.sh" , is it a good way to start?  by the way while running this command i see this error, not sure if it is relevant and if anyone else has experienced the same error?
+
+CRITICAL: Encountered an error running Certora Prover:
+/opt/homebrew/bin/solc had an error:
+TypeError: Initial value for constant variable has to be compile-time constant.
+  --> ~/Desktop/2023-08-gmx-fv/contracts/oracle/OracleUtils.sol:63:55:
+   |
+63 |     uint256 public constant COMPACTED_PRICE_BITMASK = Bits.BITMASK_32;
+
+
+[08/16/2023 17:03] 7a4raf
+hi guys, beginner here
+quick question, what is cretora and why do i need to learn it for this audit contest?
+
+
+[08/16/2023 17:05] teryanarmen
+Are you using solc-select? Make sure to use 0.8.19.
+
+{Reactions}
+👍 
+
+[08/16/2023 17:06] teryanarmen
+Our tool enables researchers to formally verify smart contracts to catch bugs and protect the protocol long term through CI. You can find more info in the docs/website/videos. Have you signed up for a key?
+
+{Reactions}
+❤️ 
+
+[08/16/2023 17:39] kkx8999
+thanks, worked.
+
+
+[08/16/2023 18:07] _brolee
+Having trouble understanding this. How do i access `Role.ROLE_ADMIN` within the rules?
+
+
+[08/16/2023 18:09] teryanarmen
+Role.ROLE_ADMIN should work
+
+
+[08/16/2023 18:11] _brolee
+Getting a `CRITICAL: [main] ERROR ALWAYS - Error in spec file (RoleStore.spec:12:5): Variable Role is undefined (first instance only reported)`
+
+
+[08/16/2023 19:12] 0xlemon
+Hi guys. Just to see if I understood everything correctly. So I have to write the rules in the .spec files to test all the properties and functions of the Contract and then commit them to the private repo that I created. Then I will be eligible to earn some of the Participation rewards and if I found a bug while trying to verify the Contract then I submit an issue and can compete for the H/M pool. Is that correct?
+
+
+[08/16/2023 19:26] teryanarmen
+Oh yeah sorry you should define a function in the harness contract, something like `hasAdminRole` that calls `hasRole` with `Role.ADMIN_ROLE`
+
+{Reactions}
+👍 (2) 
+
+[08/16/2023 19:27] teryanarmen
+Yes and at the end private mutations will be made public and used to determine coverage rewards.
+
+
+[08/16/2023 19:33] 0xlemon
+This mutations are just inserted bugs right?
+
+
+[08/16/2023 19:34] teryanarmen
+Yes
+
+
+[08/16/2023 19:34] 0xlemon
+Nice. Thank you! Everything is clear now!
+
+{Reactions}
+🔥 
+
+[08/16/2023 21:54] seerether
+I got the keys in my email, what am I to do with it ?
+
+
+[08/16/2023 23:59] 7a4raf
+do I need to write rules for all properties and functions of all contracts to be eligible to earn some of the participation rewards? would writing part of the rules make me not qualified?
+
+
+[08/17/2023 00:13] teryanarmen
+a good place to start is https://github.com/certora/tutorials/
+
+{Embed}
+https://github.com/certora/tutorials/
+GitHub - Certora/Tutorials: Practical tutorials of Certora Prover
+Practical tutorials of Certora Prover. Contribute to Certora/Tutorials development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/Tutorials-28747
+
+
+[08/17/2023 00:18] teryanarmen
+The participation rewards are awarded when your spec catches all the bugs found `certora/mutations/certora`
+
+
+[08/17/2023 00:20] 7a4raf
+I get it know thanks
+
+
+[08/17/2023 08:54] 7a4raf
+what is the output expected to run the check-all-mutation for the first time?
+
+
+[08/17/2023 09:34] 7a4raf
+what is the difference between participation and coverage awards?
+
+
+[08/17/2023 09:46] aleksandercertora
+as Incentives section states: https://code4rena.com/contests/2023-08-certora-gmx-formal-verification#top
+Participation is catching public(published) bugs/mutations
+Coverage for private bugs/mutations (additional set of bugs that Certora doesn't reveal now to evaluate the quality of submitted specs)
+
+{Embed}
+https://code4rena.com/contests/2023-08-certora-gmx-formal-verification
+Code4rena
+Code4rena is a competitive audit platform that finds more high-severity vulnerabilities, more quickly than any other auditing method.
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/c4-og-banner-0A20C.png
+
+
+[08/17/2023 09:58] aleksandercertora
+It depends on what you have in your spec. 
+If it's empty then you won't catch anything.
+
+
+[08/17/2023 10:04] 7a4raf
+thanks alot for your help
+
+
+[08/17/2023 11:58] gelato4329
+Hi everyone. Currently auditing GMX along with the team. Looking at DataStore.sol https://github.com/code-423n4/2023-08-gmx-fv/blob/main/contracts/data/DataStore.sol 
+
+There is a lot of data that is being stored but I couldn't undeerstand yet the business purpose of most of these datasets. Can somebody please direct how we can learn more about use cases of this data? Will be better positioned with audit findings once we understand the purpose of those. 
+
+Thank you
+
+{Embed}
+https://github.com/code-423n4/2023-08-gmx-fv/blob/main/contracts/data/DataStore.sol
+2023-08-gmx-fv/contracts/data/DataStore.sol at main · code-423n4/20...
+Contribute to code-423n4/2023-08-gmx-fv development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/d0b2d46b-eee0-4345-8088-b9c13ff25a2f-83CE9
+
+
+[08/17/2023 13:21] 0xlemon
+Having some trouble running the check-all-mutations.sh file. Some suggestions?
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/image-B7E61.png
+
+
+[08/17/2023 13:37] 0xlemon
+I haven't changed the file
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/image-8F3EF.png
+
+
+[08/17/2023 16:30] teryanarmen
+DataStore is used to store everything, there are multiple markets that allow for separation of risk and therefore enable GMX to enable leverage on higher risk assets. I suggest this video: https://www.youtube.com/watch?v=58om-oA1vpI
+
+{Embed}
+Owen Thurm
+https://www.youtube.com/watch?v=58om-oA1vpI
+DeFi Protocol Deep Dives | GMX V2
+Looking for a Smart Contract Audit? I'll do a free first pass on your contracts and share the glaring vulnerabilities that ought to be fixed before an audit when you apply for a quote at https://guardianaudits.com/quote.
+
+Join our community aimed at building and sharing a wealth of blockchain and solidity knowledge to help developers/auditors of...
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/maxresdefault-463BA.jpg
+
+{Reactions}
+👍 (3) 
+
+[08/17/2023 16:38] teryanarmen
+Looks like do is there, not sure whats wrong here but just double checked and it works on my end. I also pushed a change that makes the certora folder the default input. Maybe try playing with the spacing? You can also dm me if you'd like.
+
+
+[08/17/2023 17:05] 7a4raf
+is there a way to run a single rule only?
+
+
+[08/17/2023 17:09] teryanarmen
+Yes, if you just want to do it once you can use --flag in the terminal so `certoraRun file.conf --rule ruleName` or you can add it to the conf file itself if you want to keep it longer add 
+```
+        "rule": [
+            "ruleName"
+        ],
+```
+to the conf. You can also do multiple rules at a time.
+
+
+[08/18/2023 09:09] csjaybit
+hey do i need to run docker
+
+
+[08/18/2023 09:09] csjaybit
+or yarn install will work
+
+
+[08/18/2023 09:12] csjaybit
+hey what is coverage rewards
+
+
+[08/18/2023 09:20] 0xlemon
+https://discord.com/channels/810916927919620096/1137078699494215740/1141669469240954961
+
+
+[08/18/2023 09:23] csjaybit
+tell me in simple language pls
+
+
+[08/18/2023 09:23] csjaybit
+my brain cant comprehend
+
+
+[08/18/2023 09:26] 0xlemon
+Participation award is for catching the inserted bugs at certora/mutations/certora and Coverage is what percent of the private bugs that Certora has created you catch
+
+{Reactions}
+👍 (2) 
+
+[08/18/2023 09:27] csjaybit
+DO i need to run docker?
+
+
+[08/18/2023 09:27] 0xlemon
+I believe no I don't run docker and everything works fine
+
+{Reactions}
+🙏 
+
+[08/18/2023 16:32] 7a4raf
+how can I define a Contract data type in certora, 
+I am trying to pass a contract data type as an argument and an error occurred saying it is not a valid cvl type
+
+
+[08/18/2023 16:45] teryanarmen
+Docker is for those that are familiar with it and don't want to install the tool, installing the tool is recommended.
+
+{Reactions}
+👍 
+
+[08/18/2023 16:46] teryanarmen
+`address` should work in this case.
+
+
+[08/18/2023 16:52] 7a4raf
+What about the definition of the function?
+
+
+[08/18/2023 16:53] teryanarmen
+Wym? Function as input is not supported
+
+
+[08/18/2023 16:58] 7a4raf
+I meant defining the function  that takes a contract as an argyment, in the methods block
+
+
+[08/18/2023 16:59] 7a4raf
+I understand now that i will pass the contract type as an address
+
+
+[08/18/2023 16:59] 7a4raf
+But when defining the function itself in clv in the methods block
+
+
+[08/18/2023 17:32] aleksandercertora
+`address`. It's a supertype of contract in the tool.
+
+
+[08/18/2023 17:33] 7a4raf
+can i dm?
+
+
+[08/18/2023 17:36] teryanarmen
+functionName(ERC20 token, uint256 amount) public returns (bool) would be 
+function functionName(address,uint256) external; in the methods block
+
+
+[08/18/2023 17:48] 7a4raf
+working fine now, thanks alot
+
+
+[08/19/2023 02:52] kchow0557
+I'm getting `CVL specification syntax check failed` with the tutorial, pls help
+
+{Reactions}
+1️⃣ 
+
+[08/19/2023 06:28] norah7603
+https://docs.certora.com/en/latest/docs/cvl/cvl2/migration.html#step-4-review-your-methods-blocks
+
+
+[08/19/2023 11:58] 7a4raf
+quick question, is it logical to formally verify methods in the datastore.sol that are just getters and setters?
+
+
+[08/19/2023 12:00] 7a4raf
+also if I want to verify a function that has no return value or logic, like a setter, how can I check that the function will just run without errors or logical errors?
+
+
+[08/19/2023 12:03] 7a4raf
+IERC20(token).balanceOf(address(this))
+how to get this value inside cvl?
+does token.balanceOf(address) work?
+
+
+[08/19/2023 12:13] coffiasd
+@Armen | Certora  please i have DM you
+
+
+[08/19/2023 14:13] 7a4raf
+to be eligible for coverage awards, I should write verifications  for as much functions, correct?
+
+
+[08/19/2023 15:11] aleksandercertora
+getters - these are simple getters, so can't say it makes a lot of sense to verify it. Especially when it's a contest and you have limited time. 
+But in general, if your getter has complex logic, then yes. You want to make sure that it gives you what you expect. 
+
+setters - makes more sense, at least to check that there is no typo, for example, or if they should be set only by a specific address, like owner. So you want to make sure that only the owner can change it.
+
+
+[08/19/2023 15:14] aleksandercertora
+We usually use this
+```
+rule sanity(env e, method f) {
+    calldataarg args;
+    f(e, args);
+    assert false;
+}
+```
+So your results should be all violations. If you get any other result, then something is wrong. 
+But I think all functions were checked before the contest or I misunderstood your question.
+
+
+[08/19/2023 15:22] aleksandercertora
+1. you need erc20 contract in your conf/script
+2. define in at the beginning of a spec `using <contractName> as <anyNameYouWant>`. For example, `using DummyERC20A as erc20A`
+3.(optional) make it envfree in methods block
+4. in your rule use `erc20A.balanceOf(user);`
+
+
+[08/19/2023 15:23] aleksandercertora
+we can insert bug anywhere. So more you cover, more you will catch.
+
+
+[08/19/2023 16:03] 7a4raf
+@Aleksander | Certora thanks a lot for your help, all clear now
+
+
+[08/20/2023 12:47] 7a4raf
+I am trying to loop on an array and assert its values, how can I do so in cvl?
+can you provide me with direct code instructions or documentation or videos?
+
+
+[08/20/2023 13:57] orbitalautodev
+Did you have a look at the OracleStore.spec? It's got an example of using Ghost functions, hooks, invariants, etc...
+
+{Reactions}
+❤️ 
+
+[08/20/2023 14:06] 0xkral
+Hey @Armen | Certora for the injected bugs do we need to submit it as an issue or just writing the spec that catching it would suffice?
+
+
+[08/20/2023 14:35] aleksandercertora
+Maybe you can find something interesting in our tutorial folder https://github.com/Certora/Tutorials/tree/master/12.Lesson_Arrays ?
+for solutions there is the folder "Solutions" in the same repo
+
+{Embed}
+https://github.com/Certora/Tutorials/tree/master/12.Lesson_Arrays
+Tutorials/12.Lesson_Arrays at master · Certora/Tutorials
+Practical tutorials of Certora Prover. Contribute to Certora/Tutorials development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/Tutorials-28747
+
+{Reactions}
+❤️ 
+
+[08/20/2023 14:40] 7a4raf
+that does the job, thanks
+
+
+[08/20/2023 14:45] 0xkral
+Can someone clear this🙂 
+
+Thanks
+
+
+[08/20/2023 14:53] 0xvit_
+hi I'm getting this error when I run `certoraRun certora/confs/oracle_verified.conf   `
+`EVMVerifier.certoraContextValidator.CertoraTypeError: value of verify OracleHarness:certora/specs/Oracle.spec is not a list`
+
+
+[08/20/2023 14:55] 0xvit_
+Did any of you experience that error ?
+
+
+[08/20/2023 16:19] 0xkral
+Hey, how can we use user defined types in our .specs file
+
+Like what if I need to pass in a variable` dataStore` of type `DataStore` to a function?
+
+
+[08/20/2023 16:27] orbitalautodev
+Don't think Certora supports this. I used the "Harness" contracts as interfaces that let's me pass things thru as needed.
+
+
+[08/20/2023 16:30] 0xkral
+I read something similar to;
+
+CVL2 now supports user defined data types or something, I'm not sure 👀
+
+
+[08/20/2023 16:41] 7a4raf
+@Kral01
+
+{Reactions}
+🫡 
+
+[08/20/2023 16:43] 0xkral
+Ty
+
+{Reactions}
+❤️ 
+
+[08/20/2023 18:31] aleksandercertora
+I saw your message, but I can help with technical issues only. So you need to wait for Armen.
+
+{Reactions}
+👍 
+
+[08/20/2023 18:33] aleksandercertora
+I think you're looking for this?
+https://docs.certora.com/en/latest/docs/cvl/cvl2/changes.html#most-solidity-types-allowed-as-arguments
+
+{Reactions}
+thankyou 
+
+[08/20/2023 18:43] 0xlemon
+Hey guys, why do I get this mark and it says that Sanity has failed. What does it mean and how do I fix that
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/image-DEE9C.png
+
+
+[08/20/2023 18:45] specenforcer
+Were the solutions for 15.Lesson_Harness shared? They are not in the repo Solutions folder.
+
+I'm looking to see how the .spec file can access the values returned by the harness function:
+`return (contender_details.age, contender_details.registered, contender_details.points);`
+
+When trying tuple unpacking of a harness function returning (bool, uint256) in my case, I `get Syntax error: unexpected token near (`.
+
+
+[08/20/2023 20:07] 0xkral
+How to call an internal function of a contract  in the specs .
+
+Getter functions? Are we supposed to edit the contracts?
+
+
+[08/20/2023 20:24] debofx
+Long shot is to set visibility as external view.
+
+{Reactions}
+🫡 
+
+[08/20/2023 23:05] aleksandercertora
+https://docs.certora.com/en/latest/docs/prover/cli/options.html?highlight=--rule_sanity#rule-sanity
+when you click on it, it should show you what exactly failed.
+note. for invariants you get more checks even in basic option
+
+
+[08/20/2023 23:15] aleksandercertora
+this should help: https://docs.certora.com/en/latest/docs/cvl/cvl2/changes.html#destructuring-syntax-for-struct-returns
+
+{Reactions}
+🙏 
+
+[08/20/2023 23:18] aleksandercertora
+You can't access internal/private anything. 
+
+idk if you're supposed to modify it. I guess contest description should say something or let's wait for @Armen | Certora 
+
+In general there're several ways:
+1. directly change visibility in a contract
+2.  create public getter/function caller in harness
+3. if it's internal variable you can also use ghosts. Ghosts can access internal variables. 
+
+You can start with the first one so you can progress at least. Then you will modify it if needed.
+
+{Reactions}
+👍 
+
+[08/20/2023 23:22] 7a4raf
+I think you can add a getter function at the <Contract>Harness to help you access internal functions, also check all harness contracts they might be already added
+
+{Reactions}
+thankyou 
+
+[08/21/2023 03:59] junnon.
+Need help for job run, can you accept my friend req?
+
+
+[08/21/2023 05:41] mrosas
+How do i submit vulnerability? Do I import the repo to my own private repo?
+
+
+[08/21/2023 05:43] mrosas
+I have invited nd-certora and teryanarmen to my repo
+
+{Reactions}
+👍 
+
+[08/21/2023 08:34] powellabraham
+Hey people. I keep getting a solidity error  when i try to run certora on contracts. Anyone know how i could fix it
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/Capture-5871D.JPG
+
+
+[08/21/2023 09:34] debofx
+I have imported gmx. Added users tery..etc. and submitted reports as issues on the imported private repo of gmx... also, added my secret key to the private imported repo of gmx.
+
+
+[08/21/2023 10:07] mrosas
+Do I need the secret key too?
+
+
+[08/21/2023 10:07] mrosas
+@debo
+
+
+[08/21/2023 10:43] debofx
+You should have got an email from Certora. I added to my github secret key just incase.
+
+
+[08/21/2023 10:44] mrosas
+I see, hmm yet to contact me
+
+
+[08/21/2023 10:44] debofx
+Have you filled the form from Certora?
+
+
+[08/21/2023 10:47] mrosas
+Ye
+
+
+[08/21/2023 11:25] alexxander
+Has anyone encountered this revert/DUMP message - !(0x1==0x0)
+
+
+[08/21/2023 12:08] mrosas
+Can someone tell me how to submit the report for vulnerability for this protocol
+
+
+[08/21/2023 12:10] mrosas
+`Submit your work by creating a pull request from certora to main in your repo.`
+So pull request from my own certora to my which mine or the official main repo? Just to be clear*
+
+
+[08/21/2023 12:14] gumgumzum
+I think in your repo, a PR from the certora branch (with your changes) to the main branch
+
+
+[08/21/2023 12:15] mrosas
+I see, this is the first time doing audit report like this
+
+
+[08/21/2023 12:15] mrosas
+Can i send the report the OG way?  https://code4rena.com/submission-template
+
+{Embed}
+https://code4rena.com/submission-template
+Submission Template | Code4rena
+Code4rena is a competitive audit platform that finds more high-severity vulnerabilities, more quickly than any other auditing method.
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/c4-og-banner-767F3.png
+
+
+[08/21/2023 12:18] gumgumzum
+I believe it's for the CI to be triggered at the end of the contest after the private bugs are injected
+
+
+[08/21/2023 12:18] mrosas
+i dont get it
+
+
+[08/21/2023 12:20] mrosas
+I wonder what's the outcome if i submit the OG way
+
+
+[08/21/2023 12:21] gumgumzum
+Can't really tell
+
+
+[08/21/2023 12:29] gumgumzum
+My understanding is that you work on your private repo on the certora branch writing specs / mutations (participants folder) / ...
+At the end of the contest a set of new mutations will be pushed by the certora team and your specs will be run against them to evaluate your coverage.
+
+Aside from the above, if you happen to uncover any bugs (non injected) with your specs, you can open an issue in your private repository similar to the OG way additionally specifying the CVL property violated in your specs.
+
+
+[08/21/2023 12:46] mrosas
+Sounds to me like a bot race.
+
+
+[08/21/2023 13:09] benrai
+It kind of is since you are writing all this rules. But you should not compare it to a classic audit since we are using CVL to find bugs and not a manual review. It is a totally different approche to reviewing a code base
+
+
+[08/21/2023 13:16] mrosas
+Is this type of audit common?
+
+
+[08/21/2023 15:37] _brolee
+Anyone having issues running the hardhat unit tests? Getting a `Error: Cannot find module './config'`
+
+
+[08/21/2023 16:14] benrai
+As far as I know it is the second one
+
+
+[08/21/2023 17:21] teryanarmen
+The injected bugs will be made public at the end of the contest. They will be injected one by one and your spec will be ran. If your spec passes on the original code and catches the injected bugs then this will count as catching the bug.
+
+
+[08/21/2023 17:22] teryanarmen
+You should use the harness contract.
+
+
+[08/21/2023 17:23] teryanarmen
+Great an issue in the private repo you created
+
+
+[08/21/2023 17:24] teryanarmen
+Looks like you don't have solidity compiler. I recommend using solc-select
+
+
+[08/21/2023 17:25] teryanarmen
+This is usually caused by an assert false, usually added by compiler for things like too large calldata. Its hard to determine what is the reason of the revert. Happy to take a look.
+
+
+[08/21/2023 17:27] teryanarmen
+for the hardhat test you should check out their main repo, many things were removed to keep this one minimal.
+
+
+[08/21/2023 19:05] 0xkral
+Okay thank you fren
+
+
+[08/22/2023 03:37] mrosas
+I see, I have invited Nurit and Teryanar, waiting for response
+
+
+[08/22/2023 07:11] benrai
+Is there an option to use `DISPATCHER(true)` and `envfree` for the same function, eg. `balanceOf(address)`?
+
+
+[08/22/2023 09:48] benrai
+Also what kind of error is this and who can I fix it? `The stack is missing a caller for the internal function TokenUtils.depositAndSendWrappedNativeToken `
+
+
+[08/22/2023 10:10] aleksandercertora
+I guess something like this
+```
+using DummyERC20A as ERC20;
+methods {
+    function ERC20.balanceOf(address) external returns(uint256) envfree;
+    function _.balanceOf(address) external => DISPATCHER(true);
+}
+```
+not sure if it's possible to use both of them in the same line
+
+
+[08/22/2023 10:11] aleksandercertora
+Is it in the report? if yes, could you dm the link?
+
+
+[08/22/2023 12:42] java108
+Hello i got an error
+
+
+[08/22/2023 12:42] java108
+CRITICAL: [main] ERROR ALWAYS - Error in spec file (Borda.spec:19:74): Syntax error: unexpected token near `.`
+This verification task is not compatible with CVL2.
+Please refer to the CVL2 documentation for a migration guide https://docs.certora.com/en/cvl_rewrite-main/
+or downgrade to certora-cli version 3.6.5
+
+
+[08/22/2023 12:42] java108
+the link is invalid. would you provide a valid link to the guide?
+
+
+[08/22/2023 12:42] java108
+thank you
+
+
+[08/22/2023 12:48] 7a4raf
+when will the results be announced?
+should I make a pull request  in the meantime, or should I wait until the end of the contest?
+does opening a pull request as early as now make any difference in judging ?
+
+
+[08/22/2023 15:10] 0xvit_
+in CVL2 you need to add sig: in front of the method, somthing like `f.selector == sig:transfer(address, uint256).selector`
+
+
+[08/22/2023 16:10] benrai
+What exactly are the "CheckAutoGeneratedAsserts" in the report and is it ok if they do not pass but the normal test passes?
+
+
+[08/22/2023 16:56] teryanarmen
+You should make a pr after pulling the private mutations which will be made public at the end of the contest
+
+
+[08/22/2023 16:57] teryanarmen
+Btw guys the certora discord is a better place to ask questions about tutorials/setup/tool questions. If you haven’t joined yet the link is here: https://discord.gg/qTj6CD7H
+
+
+[08/22/2023 17:24] teryanarmen
+What’s fail reason? Can you send me a run link? In general this shouldn’t fail
+
+
+[08/22/2023 17:34] java108
+thank you!
+
+
+[08/22/2023 19:10] java108
+Hello, are we supposed to use Gambit to create mutations of the contracts?
+
+
+[08/22/2023 19:10] teryanarmen
+Not supposed to, you can if you want to test your work.
+
+
+[08/22/2023 19:15] java108
+so if we wrote specs that caught all  three bugs under certora/mutations/certora/
+
+
+[08/22/2023 19:15] java108
+we will qualify for the participation prize?
+
+
+[08/22/2023 19:18] java108
+another quesiton: from README "Private mutations will be used to evaluate coverage."
+
+
+[08/22/2023 19:18] java108
+are these private mutations generated by the Gambit or any CLI generators?
+
+
+[08/22/2023 21:10] teryanarmen
+Yes
+
+
+[08/22/2023 21:12] teryanarmen
+Some might be. We use mutations directly gambit but we also change some of them and we manually think of some mutations too.
+
+
+[08/23/2023 09:08] benrai
+Is it normal when running the oracle test that the run take 15 to 20 minutes even if I filtered the functions that I am testing and I only test 1 rule?
+
+
+[08/23/2023 09:53] aleksandercertora
+I'm not familiar with Oracle code, but, in general, 15-20 mins as a verification time is fine. Even with only 1 rule and 1 function.
+
+
+[08/23/2023 09:54] benrai
+Thanks for the feedback. This makes adjusting test very time consuming 😅
+
+
+[08/23/2023 10:14] aleksandercertora
+you can work on several rules in parallel. 
+run rule 1. Write rule 2, run it. if rule 1 report is ready analyze it. If not, write rule 3 and so on
+
+{Reactions}
+👍 
+
+[08/23/2023 10:59] java108
+thanks
+
+
+[08/23/2023 10:59] java108
+https://github.com/code-423n4/2023-08-gmx-fv/blob/main/contracts/oracle/Oracle.sol#L170
+
+{Embed}
+https://github.com/code-423n4/2023-08-gmx-fv/blob/main/contracts/oracle/Oracle.sol
+2023-08-gmx-fv/contracts/oracle/Oracle.sol at main · code-423n4/202...
+Contribute to code-423n4/2023-08-gmx-fv development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/d0b2d46b-eee0-4345-8088-b9c13ff25a2f-83CE9
+
+
+[08/23/2023 11:00] java108
+// USDC prices maximum value: `(2 ^ 64) / (10 ^ 6) => 4,294,967,296 / (10 ^ 6) => 4294.967296`.
+
+
+[08/23/2023 11:00] java108
+should this be    // USDC prices maximum value: `(2 ^ 32) / (10 ^ 6) => 4,294,967,296 / (10 ^ 6) => 4294.967296`.
+
+
+[08/23/2023 11:40] java108
+trying to understand this bug
+
+
+[08/23/2023 11:40] java108
+https://github.com/code-423n4/2023-08-gmx-fv/blob/main/certora/mutations/certora/bug0.patch
+
+{Embed}
+https://github.com/code-423n4/2023-08-gmx-fv/blob/main/certora/mutations/certora/bug0.patch
+2023-08-gmx-fv/certora/mutations/certora/bug0.patch at main · code-...
+Contribute to code-423n4/2023-08-gmx-fv development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/d0b2d46b-eee0-4345-8088-b9c13ff25a2f-83CE9
+
+
+[08/23/2023 11:40] java108
+I don't quite understand the reason behind this. Do you mind explain?
+
+
+[08/23/2023 11:40] java108
+Thank you
+
+
+[08/23/2023 11:41] 7a4raf
+at my understanding
+the function syncs the balance of the token with the stored token balances in the contract
+
+
+[08/23/2023 11:41] 7a4raf
+so it gets the real actual roken balance
+
+
+[08/23/2023 11:42] 7a4raf
+and store it in the contract
+
+
+[08/23/2023 11:42] 7a4raf
+so 
+balance[token] = realBalance;
+
+
+[08/23/2023 11:44] 7a4raf
+the bug instead of setting the new balance 
+it adds the old balance to the new balance 
+so each time the balance changes it basically increases by the new value and it will keep increasing
+
+
+[08/23/2023 11:46] 7a4raf
+so instead of 
+balance[token] = realBlance 
+it becomes
+balance[token] = oldBalance + newBaance
+
+
+[08/23/2023 11:46] 7a4raf
+@Java888
+
+
+[08/23/2023 11:48] java108
+thank you @7ashraf  so the code in green are supposed to be the buggy code
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/Screen_Shot_2023-08-23_at_7.47.45_AM-FBBC4.png
+
+
+[08/23/2023 11:48] java108
+i got it mixed up i thought the red is buggy code
+
+
+[08/23/2023 11:49] 7a4raf
+yea exactly
+
+{Reactions}
+👍 
+
+[08/23/2023 17:25] java108
+Hi https://github.com/code-423n4/2023-08-gmx-fv/blob/main/certora/specs/StrictBank.spec#L24C1-L25C1
+
+{Embed}
+https://github.com/code-423n4/2023-08-gmx-fv/blob/main/certora/specs/StrictBank.spec
+2023-08-gmx-fv/certora/specs/StrictBank.spec at main · code-423n4/2...
+Contribute to code-423n4/2023-08-gmx-fv development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/d0b2d46b-eee0-4345-8088-b9c13ff25a2f-83CE9
+
+
+[08/23/2023 17:25] java108
+I dont see this    function tokenBalances(address) external returns (uint256) envfree;
+
+
+[08/23/2023 17:26] java108
+it is a mapping     // used to record token balances to evaluate amounts transferred in
+    mapping (address => uint256) public tokenBalances;
+
+
+[08/23/2023 17:26] java108
+how do we declare mapping in the methods
+
+
+[08/23/2023 18:58] specenforcer
+I'm wondering why tokenBalances() is listed in the methods because I don't see where it would come from?
+
+
+[08/23/2023 21:52] teryanarmen
+Public variables have a getter function created for them by the compiler. This is how they are accessed in evm and through cvl.
+
+
+[08/23/2023 22:37] specenforcer
+What does X as a return value mean in a counterexample? tokensBalances(address) returns (uint256)
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/9k-E2633.png
+
+
+[08/23/2023 23:38] 7a4raf
+i think what you are trying to do is to compare the nextBalance with the old balance stored in the strictbank contract, which is logically incorrect, and you may encounter false cases, the function logic it self sets the the balance stored in the strict bank to the new actual value
+you can get the new actual value (nextBalance) in solidity using IERC20(token).balanceOf(address(this))
+
+
+[08/23/2023 23:39] 7a4raf
+and i am not sure what does X return value mean.
+
+
+[08/23/2023 23:39] 7a4raf
+also correct me if I got anything wrong
+
+
+[08/24/2023 13:23] orbitalautodev
+Are the "Bank" methods considered out of scope? In other words, for StrictBank, should we ignore functions it inherits from Bank?
+
+
+[08/24/2023 21:04] java108
+hi how do we create ghost function for  mapping(bytes32 => EnumerableSet.Bytes32Set) internal bytes32Sets?
+
+
+[08/24/2023 21:04] java108
+thanks!
+
+
+[08/24/2023 21:45] aleksandercertora
+All functions that can be called within a verified contract will be called by the tool, and thus will be considered for verification.
+
+{Reactions}
+👍 
+
+[08/24/2023 21:47] aleksandercertora
+maybe this can help? 
+https://discord.com/channels/795999272293236746/1140393274717261885
+
+
+[08/24/2023 22:19] exponential__
+Anyone knows how to pass `env` to a summary function?
+---
+CRITICAL: [main] ERROR ALWAYS - Error in spec file (Oracle.spec:27:56): Syntax error: unexpected token near `with`
+my method entry: `function _.arbBlockNumber() external returns(uint) with(env e) => e_block_number(e);`
+
+
+[08/24/2023 23:03] gumgumzum
+Didn't try this but I'm guessing something like this should work
+
+```    function _.arbBlockNumber() external with(env e) => e_block_number(e) expect uint256 ALL;```
+
+https://github.com/code-423n4/2023-08-gmx-fv/blob/a9b8867d67dcf7a982b3aaab1e00ba7704521909/certora/specs/Oracle.spec#L13
+
+https://docs.certora.com/en/latest/docs/cvl/cvl2/changes.html#requirements-on-returns
+
+{Embed}
+https://github.com/code-423n4/2023-08-gmx-fv/blob/a9b8867d67dcf7a982b3aaab1e00ba7704521909/certora/specs/Oracle.spec
+2023-08-gmx-fv/certora/specs/Oracle.spec at a9b8867d67dcf7a982b3aaa...
+Contribute to code-423n4/2023-08-gmx-fv development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/d0b2d46b-eee0-4345-8088-b9c13ff25a2f-83CE9
+
+
+[08/24/2023 23:06] peritoflores
+Hi am having same problem... Could you fixed?
+
+
+[08/25/2023 01:14] teryanarmen
+Usually this is for values where the storage location has a length like in the case of an array or is empty in the case of a mapping
+
+
+[08/25/2023 01:21] teryanarmen
+This is usually equivalent to a assert(false) added by solidity compiler and these reverts happen for things like too large calldata, usually not 100% clear whats reverting from just the message. 
+
+Also, in general properties for revert should look like `revert reason => lastReverted`. However, some of you might have  `lastReverted => revert reason`.
+- `lastReverted => revert reason` can cause many other counter-examples because the prover can find many ways to make a call revert, this is all the requires in the solidity code and all the safety requirement added by solc. This set is even larger if you have something like `f@withrevert(e, args)` since any function can be called. 
+- `revert reason => lastReverted` - much better because you try to check if there is any way to bypass your `revert reason`. So all other revert cases are eliminated.
+
+
+[08/25/2023 01:57] orbitalautodev
+Has anybody found a "Holy Grail" example of working with multiple contracts, linking, etc? There are many examples out there, but none seem to really synthesize everything into one place for easy reference.
+
+
+[08/25/2023 01:58] orbitalautodev
+Also, Certora lacks a really good stackoverflow history, which makes things more difficult than learning react or whatever.
+
+
+[08/25/2023 06:55] benrai
+Can anyone help me understand the following error: `wrap_twos_complement:bif(value)==2^255` It is a reason for reverting but I do not understand why the function reverts
+
+
+[08/25/2023 08:17] benrai
+I am trying to write a test and have the following line in my test: `string[] dataBefore = getStringArray(e,key);` but when I run the test I get the error:
+`Cannot assign StringType(location=memory)[] to string[], StringType(location=memory)[] cannot be represented using type string[]`.
+I tryied to use memory for `dataBefore` but it does not help. Does anyone know how to fix this error?
+
+
+[08/25/2023 09:22] gumgumzum
+Probably an overflow
+
+
+[08/25/2023 09:59] aleksandercertora
+https://docs.certora.com/en/latest/docs/cvl/cvl2/changes.html?highlight=string#bytes-and-string
+don't ask me why it was removed, idk. 
+Probably because `bytes` and  `strings` are unbounded and having them in array will be even more complicated for the tool. As a workaround, you can try the harness function that extracts values from array. You don't have `loop_iter` more than 3, so 3 elements will be sufficient to extract.
+
+{Reactions}
+👍 
+
+[08/25/2023 10:01] aleksandercertora
+It's a vague description of what you wanna do. If it's contest sensitive, then DM me please, I will try to help.
+If you can explain it in general terms and share, it would be better because others will be able to learn as well.
+
+
+[08/25/2023 10:10] aleksandercertora
+That's why @Armen | Certora mentioned our server where we have help-desk forum (https://discord.com/channels/795999272293236746/1104825071450718338). Kind of stackoverflow.
+It's not that massive, but our community is smaller than "react or whatever" and still growing. So it's also up to you if we will have "good stackoverflow history". If you don't ask questions, we don't answer.  And we don't mind if you post twice: here and there. We will post an answer twice so everyone can see it and it will be stored in a forum-like environment.
+
+{Embed}
+https://discord.com/channels/795999272293236746/1104825071450718338).
+Discord - A New Way to Chat with Friends & Communities
+Discord is the easiest way to communicate over voice, video, and text.  Chat, hang out, and stay close with your friends and communities.
+
+{Reactions}
+👍 
+
+[08/25/2023 13:07] aleksandercertora
+I just realized that my phrase looked strange. 😅 
+`don't ask me why, idk.` was related to the potential question why bytes[] and string[] were removed.
+
+
+[08/25/2023 13:08] benrai
+That is the way I understood it. 🙂 Your workaround worked perfectly 😀
+
+{Reactions}
+👍 
+
+[08/25/2023 21:19] exponential__
+dm'ed @Aleksander | Certora
+
+
+[08/26/2023 02:10] java108
+Hi there
+
+
+[08/26/2023 02:10] java108
+can someone help m eunderstand this is a bug
+
+
+[08/26/2023 02:10] java108
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/Screen_Shot_2023-08-25_at_10.10.47_PM-1A1F6.png
+
+
+[08/26/2023 02:10] java108
+new to auditing
+
+
+[08/26/2023 02:11] java108
+thanks a lot!
+
+
+[08/26/2023 02:12] java108
+thanks!
+
+
+[08/26/2023 12:11] mrosas
+Can explain `certora/mutations/certora/` files? What are them?
+
+
+[08/26/2023 12:33] mrosas
+Are you guys using chainlink?
+
+
+[08/26/2023 12:46] java108
+hii bug02
+
+
+[08/26/2023 12:46] mrosas
+?
+
+
+[08/26/2023 12:49] java108
+certora/mutations/certora/bug1.patch
+
+
+[08/26/2023 12:50] java108
+https://github.com/vivianpengnyc/gmx-audit/blob/main/certora/mutations/certora/bug1.patch
+
+
+[08/26/2023 14:09] peritoflores
+Hi @Armen | Certora I am having a headache trying to find the reason of a timeout.   I summarized the function and realized that a line `bool valid precision = precision>=10^30`; is causing the timeout....  How is possible the exponent cause that? May I DM the link?
+
+
+[08/27/2023 01:12] 7a4raf
+in the original one, price cannot be less than or equal to zero
+by injecting a bug, it allows the price to have the value zero
+
+
+[08/27/2023 01:14] 7a4raf
+Can you write a detailed submission guideline in simple form please?
+@Armen | Certora @Aleksander | Certora
+
+
+[08/27/2023 10:55] mrosas
+Are mock contracts to be audited?
+
+
+[08/27/2023 12:52] mrosas
+What's the difference between Strictbank and Bank contract? Which contract do you use?
+
+
+[08/27/2023 18:31] n33ksec
+Is openning a pr from `certora` -> `main` in my private repo enough for submiting my final work? (already invited teryanarmen&nd-certora as collaborator)
+
+
+[08/27/2023 19:30] orbitalautodev
+Use StrictBank, but anything it inherits from Bank is in scope.
+
+
+[08/28/2023 00:20] alexxander
+hey, any instructions how to submit and what to run so that we verify everything compile, etc. ?
+
+
+[08/28/2023 02:30] aleksandercertora
+I have no idea. I'm helping (if I can) only with tool-related issues. need to wait for @Armen | Certora
+
+
+[08/28/2023 08:50] benrai
+If we find an issue, should the rule for this issue confirm the issue (be green) or fail and thereby show what expected behavior can be violated?
+
+
+[08/28/2023 09:45] solodit
+hey! Has anyone had this type of issue: (tacCalldatasize!!378-0x4)s<0x60 ?
+
+
+[08/28/2023 10:04] 0xlemon
+Me
+
+
+[08/28/2023 10:05] 0xlemon
+Don't know how to fix it though
+
+
+[08/28/2023 10:06] 0xlemon
+this probably happened when you tried to verify a function that shouldn't revert right?
+
+
+[08/28/2023 10:06] 0xlemon
+If that is the case try a different approach
+
+
+[08/28/2023 11:25] jvorex
+I think ideally you want the issue to fail thereby showing that the expected behavior is violated
+
+{Reactions}
+👍 
+
+[08/28/2023 11:27] jvorex
+Read the submission steps again. Basically everything is getting pulled from your private GitHub repo importation of the codebase. See the **Participation** part
+
+
+[08/28/2023 11:32] jvorex
+for those not finding nd-certora… how are you giving access or you just give access to teryanarmen only?
+
+
+[08/28/2023 11:46] benrai
+Thanks for the feedback, this is what I also though
+
+
+[08/28/2023 11:59] alexxander
+So unitll the private mutations are pushed, we only need to keep our certora branch up to date and after mutations are released we need to do the pull request to the main branch?
+
+
+[08/28/2023 12:01] jvorex
+That’s how best I understand it, yes!
+
+
+[08/28/2023 12:05] alexxander
+@Armen | Certora could you confirm thats the correct submission process?
+
+
+[08/28/2023 12:37] aleksandercertora
+@BenRai, @0xrex is right. this is what we want/need
+
+{Reactions}
+👍 
+
+[08/28/2023 12:46] benrai
+How much time will we have after the contest is done to pull the changes from the public repo and open a pull request within our repo?
+
+
+[08/28/2023 14:22] alexzoid
+you can create a pull request right now and check everything is working as intended, github actions will be executed every time you push your changes into certora branch
+
+
+[08/28/2023 14:25] alexzoid
+the most important, don't push specification changes after the deadline
+
+{Reactions}
+👍 
+
+[08/28/2023 15:11] teryanarmen
+To submit you need to have all your work pushed to the repo. Make sure to remove/separate any runs with runs that have a violation, time out, or tool error. Once the contest ends, I will push the private mutations to the public repo. Please make sure to pull these changes to your private repo and make a PR from the `certora` branch to `main` branch.  For real bug submissions create a github issue with relevant details. Please take bug submissions seriously and include description, impact, mediation, and property violated with every submission.
+
+
+[08/28/2023 15:11] teryanarmen
+No
+
+
+[08/28/2023 15:11] teryanarmen
+StrictBank inherits Bank, both contracts are used in the verification and can have bugs injected.
+
+
+[08/28/2023 15:12] teryanarmen
+You will need to pull the private mutations after the contest ends, then make the PR.
+
+
+[08/28/2023 15:12] mrosas
+So u guys plan to use both contracts?
+
+
+[08/28/2023 15:12] teryanarmen
+They're both used
+
+
+[08/28/2023 15:12] mrosas
+Ok
+
+
+[08/28/2023 15:13] teryanarmen
+I see your dm, will take a look.
+
+
+[08/28/2023 15:14] teryanarmen
+All your rules should pass on the original code unless they catch a real bug you have thoroughly expalined in a github issue. The rules that are violated because of a potential real bug need to be in a separate spec run with a separate conf file.
+
+
+[08/28/2023 15:14] teryanarmen
+violated
+
+
+[08/28/2023 15:15] teryanarmen
+teryanarmen will be ok if nd-certora is problematic for you.
+
+
+[08/28/2023 15:20] teryanarmen
+See my earlier message.
+ 1. Push all your work to certora branch in your private fork. 
+ 2. pull private mutations from public repo after contest ends (do it asap, lets say you have 24 hours after contest end but it won't be strictly tracked, please be mindful because if you do this late the process will be slowed down for others)
+ 3. make pr from certora branch to main branch.
+
+
+[08/28/2023 15:20] teryanarmen
+~24 hours
+
+
+[08/28/2023 15:21] teryanarmen
+👆
+
+
+[08/28/2023 15:21] jvorex
+Finally was able to add her. Thanks
+
+
+[08/28/2023 16:12] 7a4raf
+can i push documentations or read me files after the deadline ?
+
+
+[08/28/2023 16:35] 0xvit_
+Hi one question, I'm having an issue that a method is reverting with `unknown loop source code`, what can I do ? ;/
+
+
+[08/28/2023 17:15] jvorex
+@Armen | Certora @Aleksander | Certora
+
+
+[08/28/2023 18:46] orbitalautodev
+Would it be preferred if all bugs were moved to the *Issues.spec files? So that everything is green on the normal spec files?
+
+
+[08/28/2023 18:54] specenforcer
+Yes that’s my understanding of https://discord.com/channels/810916927919620096/1137078699494215740/1145738191098355792
+
+{Reactions}
+🔥 👍 
+
+[08/28/2023 19:24] 7a4raf
+how can i add the certora secret key to github?
+
+
+[08/28/2023 19:31] jvorex
+From the repo navigate to settings > environments > add secret
+
+
+[08/28/2023 19:31] jvorex
+Give the secret a name like CERTORAKEY then paste the value
+
+
+[08/28/2023 19:31] jvorex
+Save
+
+
+[08/28/2023 19:32] teryanarmen
+name has to be CERTORAKEY, thanks for the answer @0xrex
+
+
+[08/28/2023 19:32] teryanarmen
+Yes
+
+
+[08/28/2023 19:32] teryanarmen
+Not sure without a run link
+
+
+[08/28/2023 19:33] teryanarmen
+No, not sure why you'd want to do that? To explain things?
+
+
+[08/28/2023 19:33] jvorex
+Here’s the run link:
+
+https://prover.certora.com/output/50957/a884279968314ffeb7a5eb5fe965e478/?anonymousKey=86a46b2ea77beb95cb3591a152dbfadc00e6fdbf
+
+
+[08/28/2023 19:34] teryanarmen
+I think this is because the loops weren't entered, probably prover assumed length 0
+
+
+[08/28/2023 19:35] teryanarmen
+But the call isn't reverting
+
+
+[08/28/2023 19:39] jvorex
+Yeah that’s weird
+
+
+[08/28/2023 19:39] jvorex
+Thanks
+
+
+[08/28/2023 19:53] peritoflores
+Can we really pull changes of an imported repository??  I thought that was only possible for forked  ... I mean to pull private bugs...
+
+
+[08/28/2023 19:53] teryanarmen
+@here private mutations will be made public once rewards are calculated for security reasons. Submissions are much simpler, if you've shared your repo with me and `nd-certora`, you're done. Just don't make any changes after the deadline.
+
+
+[08/28/2023 19:54] teryanarmen
+You can by adding a remote but you don't have to, sorry for the late change.
+
+
+[08/28/2023 19:55] peritoflores
+great thanks! I
+
+
+[08/28/2023 19:57] orbitalautodev
+OK yall. Been a pleasure participating and learning Certora. Good luck to everyone.
+
+{Reactions}
+❤️ 
+
+[08/28/2023 20:01] gumgumzum
+Same here, gl everyone.
+
+{Reactions}
+❤️ 
+
+[08/28/2023 20:01] peritoflores
+Humble sumission... Honestly took me 20 days to understand all this tech from scratch that I didn't have time to watch the logic of GMX... I started writing rules more or less fast just a day ago... Anyway happy to learn all this stuff and hope to crack the next certora competition
+
+{Reactions}
+🔥 (5) 
+
+[08/28/2023 20:02] C4
+**🚨 AUDIT ALERT**
+
+@🐺wardens **Certora-GMX Formal Verification** is now closed! Huge thanks to everyone who participated.
+
+What's next:  Certora will review the submissions over the next few weeks. Keep an eye on this channel for updates on the results.
+
+{Reactions}
+hmmnice (5) 
+
+[08/28/2023 20:05] 0xvit_
+in the case that just teryanarmen accepted the invite, is everything fine right ?
+
+
+[08/28/2023 20:05] teryanarmen
+yeah
+
+{Reactions}
+👍 (2) 
+
+[08/28/2023 20:26] mlome
+What is a formal verification?
+
+
+[08/28/2023 21:30] teryanarmen
+proving code correctness
+
+
+[08/28/2023 21:46] mlome
+What is the difference with a classic audit?
+
+
+[08/28/2023 23:13] 7a4raf
+Good luck everyone,it was really great and fun
+special thanks to @Armen | Certora  and @Aleksander | Certora  for the great help they offered
+
+{Reactions}
+❤️ (2) 
+
+[08/29/2023 01:31] teryanarmen
+The goal is to formally verify the code. Check out the repo README https://github.com/code-423n4/2023-08-gmx-fv
+
+{Embed}
+https://github.com/code-423n4/2023-08-gmx-fv
+GitHub - code-423n4/2023-08-gmx-fv
+Contribute to code-423n4/2023-08-gmx-fv development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/d0b2d46b-eee0-4345-8088-b9c13ff25a2f-83CE9
+
+
+[08/29/2023 06:21] benrai
+Have the private mutations been pushed to the public repo? Can't seam to find them in the folder `mutations`
+
+
+[08/29/2023 06:34] 0xlemon
+I believe we just have to wait for the results
+https://discord.com/channels/810916927919620096/1137078699494215740/1145808517765267537
+
+
+[08/29/2023 06:37] benrai
+So no pull request and PR needed?
+
+
+[08/29/2023 06:38] 0xlemon
+I think so
+
+
+[08/29/2023 06:38] 0xlemon
+That is how I understand the message above
+
+
+[08/29/2023 06:39] benrai
+Ok, thanks for your feedback. You saved me some time finding out how to do pull and PR
+
+{Reactions}
+🙏 
+
+[08/29/2023 21:11] aleksandercertora
+Thank you @7ashraf for your kind words. 
+
+Sorry if couldn't help everybody with everything. You asked a lot of questions I couldn't think/didn't experience before. It was also a great opportunity for me to learn. You made this possible. 
+
+We will have more contests soon and with your acquired experience it will be easier. I will be happy to cooperate with everyone in the future.
+
+{Reactions}
+🙏 (8) 
+
+[08/31/2023 07:36] benrai
+Since the contest is over now, is anyone willing to share their rules that found the public mutations? I try a lot to writ a proper rule for them but did not manage to do so and I would love to learn how it is done. @0xlemon maybe? 🙂
+
+
+[08/31/2023 11:00] 0xlemon
+DM-ed
+
+
+[09/08/2023 08:52] 7a4raf
+any updates on the results ?
+
+
+[09/09/2023 23:07] teryanarmen
+Still working on it, will have an update next week.
+
+{Reactions}
+👍 (3) 
+
+[09/10/2023 11:25] 7a4raf
+ok great!
+
+
+[09/17/2023 13:27] 7a4raf
+any chance we getting results this week
+
+
+[09/17/2023 13:27] 7a4raf
+?
+
+
+[09/17/2023 18:11] benrai
+On weekends normally not much happens
+
+
+[09/19/2023 10:13] 7a4raf
+https://tenor.com/view/kyriostsahs-lonely-waiting-quarantine-life-gif-18073672
+
+{Embed}
+https://tenor.com/view/kyriostsahs-lonely-waiting-quarantine-life-gif-18073672
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/kyriostsahs-lonely-F7D56.png
+
+{Reactions}
+😅 
+
+[09/19/2023 16:01] teryanarmen
+Hey everyone, thanks for your patience. We have reviewed all the issue submissions and are working on the coverage testing. We had some bugs with our automated system (not the github ci checks) which have now been resolved. I will update here soon.
+
+{Reactions}
+🙌 (11) 
+
+[09/20/2023 08:14] 7a4raf
+Great job 👌👌 
+Should we expect another week or two?
+
+
+[09/20/2023 22:27] teryanarmen
+Hoping to have coverage results by next week. Will be commenting on github issues later today.
+
+
+[09/26/2023 15:44] teryanarmen
+Hi everyone, thank you all for your patience. We didn't find any valid medium or high severity submissions. I've responded to all bug submissions that we felt needed further explanation. If you think we missed something, please ping me on one of your issues. Coverage results coming soon!
+
+{Reactions}
+🙏 (3) 
+
+[09/26/2023 17:22] 0xlemon
+Does this mean that the price pool for H/M findings will be added to the coverage or participation pool?
+
+
+[09/26/2023 17:23] teryanarmen
+Yes, still giving a chance for responses though so its not final just yet.
+
+{Reactions}
+🫡 (6) 
+
+[09/28/2023 18:09] 7a4raf
+Can u please re-check my submissions, you only commented on one of my issues.
+Thanks
+@teryanarmen#0000
+
+
+[09/28/2023 19:36] olanre_waju
+You do not have backstage role, how did you know that?
+
+
+[09/28/2023 19:46] benrai
+The issues are in his private repo
+
+
+[09/28/2023 20:02] olanre_waju
+oh....ok
+
+
+[09/28/2023 20:03] teryanarmen
+Please ping me on the issue. I Only responded to some issues. Many issues were clearly not valid according to the details explained in the readme.
+
+
+[10/03/2023 10:01] 7a4raf
+https://tenor.com/view/hang-on-gif-27524073
+
+{Embed}
+https://tenor.com/view/hang-on-gif-27524073
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/hang-on-4D439.png
+
+{Reactions}
+😂 (5) 
+
+[10/06/2023 17:55] 7a4raf
+Starting to loose hope on this one
+
+
+[10/06/2023 17:56] 7a4raf
+Any updates from the sponsors ?
+
+
+[10/06/2023 18:58] teryanarmen
+Yeah should be ready in a few days 😅 there were a lot of submissions and more specs per submission than before so we needed to develop more automatic ways of running jobs and collecting data. To do the coverage testing we send over 5000 runs and have to handle cases like timeouts errors and sanity failures. I have all the runs and the scripts for collecting and aggregating data so we’re close. Thank you for your patience and I hope the next message I send will be the results 🤞
+
+{Reactions}
+👏 (3) 
+
+[10/06/2023 19:33] 7a4raf
+That's some great news to hear, can't wait to hear the result soon
+
+
+[10/21/2023 05:19] 0xnirlin
+:awkward:
+
+{Reactions}
+😢 (3) 
+
+[10/25/2023 10:55] teryanarmen
+Hi @here after a very long time I am pleased to announce we have some preliminary results for the contest. The results along with the data used to compute the results can be found [here](https://docs.google.com/spreadsheets/d/16Vfl5tm15SJbe-pA-4m_KycSsoq43_rUPpiDJzocrR8/edit#gid=1970712821). All the bugs used for computation can be found in the [original repo](https://github.com/code-423n4/2023-08-gmx-fv/tree/main/certora/mutations/contracts). 
+
+You can look through the data and rerun mutation testing with the mutations by first copying the mutation contracts and gambit confs to your repo and running:
+`certoraMutate --prover_conf certora/confs/[verified conf] --mutation_conf certora/confs/gambit/[relevant contract gambit conf]`
+
+Please reach out with any potential corrections, we will be finalizing these results next Monday and sending rewards out after that. Thanks for you participation and great patience!
+
+{Embed}
+https://docs.google.com/spreadsheets/d/16Vfl5tm15SJbe-pA-4m_KycSsoq43_rUPpiDJzocrR8/edit
+Copy of GMX Results
+Rewards
+
+Participant,Rewards,Bug ID →,Original_Original,DataStore3.sol,DataStore2.sol,DataStore1.sol,DataStoreBug1Participation.sol,DataStore4.sol,DataStoreBug1.sol,DataStoreBug0.sol,RoleStore5.sol,RoleStore4.sol,RoleStore1.sol,RoleStore3.sol,RoleStore2.sol,OracleStore1.sol,OracleStore2.sol,Oracl...
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/AHkbwyJ9T7cHx14cJdGNuBTM92ZKGLi7SOWnLVIOuF-2BE31
+
+{Reactions}
+👍 (4) 🎉 (2) 
+
+[10/26/2023 06:56] neumoxx
+Hey @Armen | Certora , do we have to use a specific cli version? All my runs are failing with this message in the prover website `The Certora CLI version is incompatible with the Certora Cloud version. You may need to update your Certora CLI. Users running on a specific Prover branch may need to install a specific CLI release.`
+
+
+[10/26/2023 06:56] neumoxx
+I have the latest version installed
+
+
+[10/26/2023 09:13] alexxander
+Hey @Armen | Certora,  dropped you a DM
+
+
+[10/26/2023 09:18] 0xkral
+Hey @Armen | Certora tagged you in a private thread.
+
+
+[10/26/2023 12:03] teryanarmen
+You might need to remove 
+`"prover_version": "master",`
+from the conf files
+
+
+[10/28/2023 05:29] 7a4raf
+I got a zero in participation, I am pretty sure I caught at least 2 can u please re check @Armen | Certora
+
+
+[10/28/2023 08:55] pascal9476
+How please, I’m not seeing mine
+
+
+[10/28/2023 09:33] teryanarmen
+Please dm me the run links, thanks.
+
+
+[10/29/2023 07:25] benrai
+Should be in your github. The repo you submitted for the contest
+
+
+[10/29/2023 07:26] pascal9476
+I just linked my GitHub yesterday
+
+
+[10/29/2023 07:26] pascal9476
+So I’m guessing that’s why I’ve not been seeing them
+
+
+[10/30/2023 08:41] 7a4raf
+👀👀
+
+
+[10/30/2023 12:55] 7a4raf
+This day is gonna be longer than the whole judging period😂
+
+
+[10/31/2023 13:19] teryanarmen
+I got all the messages about corrections. Will check them and hopefully have the final results by eow.
+
+
+[10/31/2023 13:36] 7a4raf
+eow ?
+
+
+[10/31/2023 13:41] 0x11singh99
+end of week
+
+{Reactions}
+👌 
+
+[11/06/2023 17:11] 7a4raf
+Any updates?
+
+
+[11/06/2023 17:11] teryanarmen
+Finalizing, some people submitted corrections late
+
+
+[11/06/2023 17:25] 7a4raf
+Thats great to hear, good luck
+
+
+[11/08/2023 00:46] teryanarmen
+@here Thank you all for your submissions, corrections, and most of all patience. 
+
+Corrections have been incorporated, also further corrections were made to the preliminary results, most notably the participation rewards were corrected to 10% of the pool as stated in the [README](https://github.com/code-423n4/2023-08-gmx-fv#incentives) and we decided to award participation rewards on a per catch basis instead of an all or nothing to reward effort more evenly. 
+
+There were also some issues with private mutations `DataStore3.sol` and `DataStore4.sol` where the participation mutation was also included in the contract along with the intended mutant. The corrected mutations can be found [here](https://github.com/code-423n4/2023-08-gmx-fv/commit/45d4026c3184a018af2b7cfccb043584bd6a7314). 
+
+The final results will be announced by C4 shortly.
+
+{Reactions}
+❤️ (4) 
+
+[11/08/2023 16:24] 7a4raf
+https://tenor.com/view/when-today-tomorrow-in50years-confused-gif-16929382
+
+{Embed}
+https://tenor.com/view/when-today-tomorrow-in50years-confused-gif-16929382
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/when-today-EE201.png
+
+
+[11/08/2023 16:44] teryanarmen
+https://tenor.com/view/futurama-professor-farnsworth-professor-farnsworth-bender-gif-25198969
+
+{Embed}
+https://tenor.com/view/futurama-professor-farnsworth-professor-farnsworth-bender-gif-25198969
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/futurama-professor-farnsworth-813AA.png
+
+{Reactions}
+😂 (8) 
+
+[11/09/2023 11:36] 7a4raf
+https://tenor.com/view/i-think-today-might-be-that-day-today-is-the-day-now-lets-do-it-zeph-playz-gif-14682086
+
+{Embed}
+https://tenor.com/view/i-think-today-might-be-that-day-today-is-the-day-now-lets-do-it-zeph-playz-gif-14682086
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/i-think-today-might-be-that-day-today-is-t-E82EA.png
+
+
+[11/09/2023 17:21] 7a4raf
+https://tenor.com/view/ateu-gif-11707357242647312998
+
+{Embed}
+https://tenor.com/view/ateu-gif-11707357242647312998
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/ateu-60CB8.png
+
+
+[11/12/2023 15:49] 7a4raf
+https://tenor.com/view/bored-cats-lazy-just-waiting-waiting-gif-14971662
+
+{Embed}
+https://tenor.com/view/bored-cats-lazy-just-waiting-waiting-gif-14971662
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/bored-cats-4ADAD.png
+
+
+[11/13/2023 19:54] 7a4raf
+Still no updates?
+
+
+[11/14/2023 01:30] liveactionllamac4
+:C4Keycap: 💸 🎉 Awards for **GMX Formal Verification Competition with Certora**:
+
+$5,686.11 USDC » @neumo 
+$5,336.17 USDC » @0xpoolboy 
+$5,076.76 USDC » @alexzoid 
+$3,517.92 USDC » @jokr 
+$2,512.06 USDC » @twicek 
+$2,222.95 USDC » @PPrieditis 
+$1,999.20 USDC » @dev1644 
+$1,435.27 USDC » @fyang1024 
+$1,275.14 USDC » @zapaz 
+$1,043.93 USDC » @Junnon 
+$1,031.37 USDC » @gumgumzum 
+$977.70 USDC » @Kenshin 
+$950.42 USDC » @alexxander 
+$823.17 USDC » @BenRai 
+$780.71 USDC » @OrbitalAutoDev 
+$719.57 USDC » @0xmichalis 
+$714.64 USDC » @n33k 
+$523.59 USDC » vittdav
+$483.67 USDC » @0xrex 
+$363.72 USDC » @peritoflores 
+$349.21 USDC » @Nikki 
+$285.73 USDC » @7ashraf 
+$277.12 USDC » jessicapointing
+$237.42 USDC » @0xlemon 
+$229.50 USDC » @sh1v 
+$222.50 USDC » @CarlosR 
+$201.41 USDC » @yjrwkk 
+$191.13 USDC » @merlin 
+$189.97 USDC » @sashik_eth 
+$119.42 USDC » @carrotsmuggler 
+$116.90 USDC » @Vijay 
+$19.62 USDC » @Topmark 
+$19.62 USDC » @Kral01 
+$19.62 USDC » @vipe0x 
+$13.95 USDC » @SpecEnforcer 
+$13.95 USDC » @shirochan 
+$8.18 USDC » Sentry0x
+$8.18 USDC » @cheapgemmer(hack3r-0m) 
+$2.52 USDC » @exponential 
+
+Awards will be distributed on Polygon within the next week. Congratulations all! 💸 💸 💸
+
+{Reactions}
+🔥 (7) 
+
+[11/14/2023 08:23] teryanarmen
+Here are the detailed results: https://docs.google.com/spreadsheets/d/1vXgsXgmfoD4ibqfL6dR018fXYJqXT6li-i1OrF424NA/edit#gid=1970712821
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1vXgsXgmfoD4ibqfL6dR018fXYJqXT6li-i1OrF424NA/edit
+Copy of GMX Results
+Rewards
+
+Participant,Code4rena username,Rewards,Bug ID →,Original_Original,DataStore3.sol,DataStore2.sol,DataStore1.sol,DataStoreBug1Participation.sol,DataStore4.sol,DataStoreBug1.sol,DataStoreBug0.sol,RoleStore5.sol,RoleStore4.sol,RoleStore1.sol,RoleStore3.sol,RoleStore2.sol,OracleStore1.sol,Ora...
+Code4rena - ARCHIVE-Q3-2023 - gmx-fv-aug07 [1137078699494215740].txt_Files/AHkbwyKEfrX2NgbsdfdfRbGw5CQFByUeLLKFHQYnjJ-4365C
+
+{Reactions}
+thankyou (4) 
+
+[11/14/2023 20:57] 7a4raf
+I would like to ask if I can share the specs I wrote on public platforms, does this violate any privacy terms?
+
+
+[11/16/2023 09:54] teryanarmen
+No this is fine
+
+
+==============================================================
+Exported 523 message(s)
+==============================================================
